@@ -13,3 +13,5 @@ jupyterlab
 ruff
 pre-commit
 pytest
+nltk
+joblib
