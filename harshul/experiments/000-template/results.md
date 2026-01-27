@@ -1,7 +1,7 @@
 # Results: [Experiment Name]
 
 **Date Completed**: YYYY-MM-DD
-**Author**: anthony
+**Author**: harshul
 
 ## Summary
 
