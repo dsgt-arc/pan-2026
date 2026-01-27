@@ -32,3 +32,4 @@ PAN 2026 experiments and code.
 | ID | Name | Status | Description |
 |----|------|--------|-------------|
 | 000 | template | - | Template for new experiments |
+| 001 | Logistic Regression Baseline | Completed | Simple logistic regression model with TF-IDF features |
