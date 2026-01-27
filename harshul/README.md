@@ -12,7 +12,8 @@ PAN 2026 experiments and code.
 │       ├── proposal.md    # Hypothesis and method
 │       ├── results.md     # Outcomes (after completion)
 │       └── artifacts/     # Logs, checkpoints
-└── pyproject.toml         # Package dependencies
+├── notebooks              # Notebooks used in experiments
+└── tests                  # Tests used in experiments
 ```
 
 ## Creating a New Experiment
