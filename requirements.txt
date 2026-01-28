@@ -6,6 +6,8 @@ tqdm
 pyspark >= 3.4.0
 pyarrow
 luigi
+lightgbm
+textstat
 
 
 # developer tools

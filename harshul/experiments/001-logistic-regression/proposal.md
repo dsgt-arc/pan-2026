@@ -1,6 +1,6 @@
 # Proposal: Logistic Regression Baseline for AI Detection
 
-**Status**: proposed
+**Status**: completed
 **Created**: 2026-01-27
 **Author**: harshul
 

@@ -33,3 +33,4 @@ PAN 2026 experiments and code.
 |----|------|--------|-------------|
 | 000 | template | - | Template for new experiments |
 | 001 | Logistic Regression Baseline | Completed | Simple logistic regression model with TF-IDF features |
+| 002 | LightGBM + Stylometric Features | Completed | Hybrid model with TF-IDF and hand-crafted linguistic features |
