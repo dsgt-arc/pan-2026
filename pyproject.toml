@@ -4,21 +4,63 @@ version = "0.1.1"
 authors = [{ name = "Harshul Basava", email = "harshul@gatech.edu" }]
 description = "DS@GT CLEF pan repository"
 readme = "README.md"
-requires-python = ">=3.8"
-dynamic = ["dependencies"]
+requires-python = ">=3.10"
+
+dependencies = [
+    # Core data science
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scikit-learn",
+    "tqdm",
+    "joblib",
+    
+    # Data processing
+    "pyspark>=3.4.0",
+    "pyarrow",
+    "luigi",
+    
+    # ML / Deep Learning
+    "torch",
+    "transformers",
+    "accelerate",
+    "datasets",
+    "sentencepiece",
+    "lightgbm",
+    
+    # NLP
+    "nltk",
+    "textstat",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyterlab",
+    "ruff",
+    "pre-commit",
+    "pytest",
+]
 
 [project.urls]
 Homepage = "https://github.com/dsgt-arc/pan-2026"
 Issues = "https://github.com/dsgt-arc/pan-2026/issues"
 
 [build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
-[tool.setuptools.dynamic]
-dependencies = { file = "requirements.txt" }
+[dependency-groups]
+dev = [
+    "jupyterlab",
+    "ruff",
+    "pre-commit",
+    "pytest",
+]
 
-[tool.setuptools.packages.find]
-where = ["."]
-include = []
-namespaces = false
+[tool.uv.workspace]
+members = [
+    "harshul/experiments/*",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]

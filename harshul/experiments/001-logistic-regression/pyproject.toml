@@ -1,0 +1,12 @@
+[project]
+name = "experiment-001-logistic-regression"
+version = "0.1.0"
+description = "Logistic Regression baseline for AI text detection"
+requires-python = ">=3.10"
+
+# Experiment-specific dependencies (core deps inherited from root)
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
