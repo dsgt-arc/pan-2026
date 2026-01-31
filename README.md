@@ -29,7 +29,7 @@ The PAN 2026 AI Detection task challenges participants to:
 3. **DeBERTa provides modest improvement** - +4.2% OOD ROC-AUC vs LR baseline, but still far from target
 4. **Stylometric features overfit** - LightGBM with stylometrics performed *worse than random* on OOD data
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 pan-2026/
@@ -65,3 +65,4 @@ pan-2026/
 ├── scripts/                  # Utility scripts
 └── docs/                     # Documentation
 ```
+
