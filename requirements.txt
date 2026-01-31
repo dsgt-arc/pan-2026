@@ -8,6 +8,11 @@ pyarrow
 luigi
 lightgbm
 textstat
+torch
+transformers
+accelerate
+datasets
+sentencepiece
 
 
 # developer tools
