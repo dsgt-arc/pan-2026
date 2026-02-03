@@ -1,5 +1,5 @@
 """
-Model loading utilities for DeBERTa PAN2026 model.
+Model loading utilities for DeBERTa PAN2025 model.
 Pulls the fine-tuned model from Hugging Face Hub.
 """
 
@@ -7,7 +7,7 @@ import os
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 # Hugging Face model repository
-HF_MODEL_ID = "hersheys-baklava/deberta-pan2026"
+HF_MODEL_ID = "hersheys-baklava/deberta-pan2025"
 
 def load_model_from_hub(
     model_id: str = HF_MODEL_ID,

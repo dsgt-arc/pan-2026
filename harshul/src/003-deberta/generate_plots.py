@@ -14,7 +14,7 @@ from evaluate import predict_with_chunking
 from metrics import plot_confusion_matrix, plot_roc_curve
 
 
-def generate_plots(data_path: str, output_dir: str, dataset_name: str = "PAN2026"):
+def generate_plots(data_path: str, output_dir: str, dataset_name: str = "PAN2025"):
     """
     Generates confusion matrix and ROC curve plots.
     
@@ -65,16 +65,16 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser(description="Generate evaluation plots")
-    parser.add_argument("--dataset", choices=["pan2026", "hc3"], default="pan2026",
+    parser.add_argument("--dataset", choices=["pan2025", "hc3"], default="pan2025",
                         help="Which dataset to generate plots for")
     args = parser.parse_args()
     
     experiment_dir = "/Users/tanish/Desktop/CLEF2026/pan-2026/harshul/experiments/003-deberta"
     artifacts_dir = os.path.join(experiment_dir, "artifacts")
     
-    if args.dataset == "pan2026":
+    if args.dataset == "pan2025":
         data_path = "/Users/tanish/Desktop/CLEF2026/pan-2026/harshul/src/pan-data/val.jsonl"
-        generate_plots(data_path, artifacts_dir, "PAN2026")
+        generate_plots(data_path, artifacts_dir, "PAN2025")
     else:
         data_path = "/Users/tanish/Desktop/CLEF2026/pan-2026/harshul/src/pan-data/external/hc3_wiki_processed.jsonl"
         generate_plots(data_path, artifacts_dir, "HC3")

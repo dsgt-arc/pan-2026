@@ -13,7 +13,7 @@ The hypothesis was confirmed: a simple logistic regression model with TF-IDF fea
 
 ### Quantitative
 
-| Metric | Baseline (Random) | PAN2026 Val | HC3 Wiki (External) |
+| Metric | Baseline (Random) | PAN2025 Val | HC3 Wiki (External) |
 |--------|-------------------|-------------|----------------------|
 | ROC-AUC | 0.5000 | 0.9953 | 0.5520 |
 | Brier | 0.2500 | 0.0282 | 0.2706 |
@@ -29,8 +29,8 @@ The hypothesis was confirmed: a simple logistic regression model with TF-IDF fea
 
 ## Analysis
 
-The exceptional performance on the PAN2026 validation set (ROC-AUC > 0.99) contrasts sharply with the poor performance on HC3 (ROC-AUC ~0.55). This indicates:
-1. **Model Overfitting to PAN2026**: The Logistic Regression model is picking up on specific artifacts or "accents" of the LLMs and prompts used for the PAN2026 dataset that do not exist in HC3.
+The exceptional performance on the PAN2025 validation set (ROC-AUC > 0.99) contrasts sharply with the poor performance on HC3 (ROC-AUC ~0.55). This indicates:
+1. **Model Overfitting to PAN2025**: The Logistic Regression model is picking up on specific artifacts or "accents" of the LLMs and prompts used for the PAN2025 dataset that do not exist in HC3.
 2. **Dataset Specificity**: The stylistic markers captured (like specific bigrams) are highly sensitive to the distribution of the training data.
 3. **Generalization Gap**: A simple linear baseline with TF-IDF is insufficient for robust, general-purpose AI text detection across different domains and generators.
 

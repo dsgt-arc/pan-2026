@@ -10,7 +10,7 @@ A gradient-boosted tree model (LightGBM) will outperform the simple Logistic Reg
 
 ## Background
 
-Our previous experiment ([001-logistic-regression](../001-logistic-regression/results.md)) established a TF-IDF + Logistic Regression baseline achieving **0.995 ROC-AUC** on PAN2026 validation data, but only **0.552 ROC-AUC** on the external HC3 dataset. This significant generalization gap suggests the linear model is overfitting to dataset-specific artifacts.
+Our previous experiment ([001-logistic-regression](../001-logistic-regression/results.md)) established a TF-IDF + Logistic Regression baseline achieving **0.995 ROC-AUC** on PAN2025 validation data, but only **0.552 ROC-AUC** on the external HC3 dataset. This significant generalization gap suggests the linear model is overfitting to dataset-specific artifacts.
 
 **Why LightGBM?**
 - **Non-linear decision boundaries**: Can capture complex feature interactions that linear models miss.
@@ -49,7 +49,7 @@ This combined approach should allow the model to learn both lexical patterns (fr
 
 | Component | Details |
 |-----------|---------|
-| Data | PAN2026 train/val splits + HC3 Wiki (external test) |
+| Data | PAN2025 train/val splits + HC3 Wiki (external test) |
 | Compute | Local CPU (LightGBM is CPU-optimized) |
 | Dependencies | `lightgbm`, `scikit-learn`, `pandas`, `numpy` |
 | Code | `harshul/src/002-lightgbm/` |
@@ -59,7 +59,7 @@ This combined approach should allow the model to learn both lexical patterns (fr
 1. **Feature engineering**: Implement `stylometric_features.py` to compute all stylometric features.
 2. **Combine features**: Concatenate TF-IDF sparse matrix with dense stylometric feature vectors.
 3. **Train LightGBM**: Fit a `LGBMClassifier` with default hyperparameters initially.
-4. **Evaluate**: Compute PAN2026 metrics on both PAN2026 validation and HC3 external datasets.
+4. **Evaluate**: Compute PAN2025 metrics on both PAN2025 validation and HC3 external datasets.
 5. **Analyze features**: Extract and visualize feature importance (both TF-IDF and stylometric).
 6. **(Optional) Tune hyperparameters**: Grid search over `num_leaves`, `learning_rate`, and `n_estimators`.
 
@@ -85,15 +85,15 @@ This combined approach should allow the model to learn both lexical patterns (fr
 
 We compare against [001-logistic-regression](../001-logistic-regression/results.md):
 
-| Metric | LR (PAN2026 Val) | LR (HC3 External) |
+| Metric | LR (PAN2025 Val) | LR (HC3 External) |
 |--------|-----------------|-------------------|
 | ROC-AUC | 0.9953 | 0.5520 |
 | F1 | 0.9772 | 0.6079 |
 
 ### Success Criteria
 
-- **Confirm if**: LightGBM achieves **ROC-AUC ≥ 0.65** on HC3 (meaningful improvement over LR's 0.55) while maintaining **ROC-AUC ≥ 0.95** on PAN2026 validation.
-- **Reject if**: LightGBM shows no improvement on HC3, or significantly degrades PAN2026 performance.
+- **Confirm if**: LightGBM achieves **ROC-AUC ≥ 0.65** on HC3 (meaningful improvement over LR's 0.55) while maintaining **ROC-AUC ≥ 0.95** on PAN2025 validation.
+- **Reject if**: LightGBM shows no improvement on HC3, or significantly degrades PAN2025 performance.
 
 ## Limitations
 

@@ -34,5 +34,5 @@ PAN 2026 experiments and code.
 | 000 | template | - | Template for new experiments |
 | 001 | Logistic Regression Baseline | **Completed** | Simple logistic regression model with TF-IDF features |
 | 002 | LightGBM + Stylometric Features | **Completed** | Hybrid model with TF-IDF and hand-crafted linguistic features |
-| 003 | DeBERTa-v3 Fine-tuning | **Completed** | Transformer-based model - ROC-AUC: 0.9948 (PAN2026), 0.5939 (HC3) |
+| 003 | DeBERTa-v3 Fine-tuning | **Completed** | Transformer-based model - ROC-AUC: 0.9948 (PAN2025), 0.5939 (HC3) |
 | 004 | External Evaluation Benchmark | **Completed** | OOD evaluation: 3 models × 5 datasets. DeBERTa leads (avg ROC-AUC 0.579) |

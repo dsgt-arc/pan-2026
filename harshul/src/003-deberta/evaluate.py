@@ -125,7 +125,7 @@ def main():
     # Evaluate
     metrics = evaluate_dataset(model, tokenizer, val_file, device=device)
     
-    print("\nValidation Metrics (PAN2026):")
+    print("\nValidation Metrics (PAN2025):")
     for name, value in metrics.items():
         print(f"  {name}: {value:.4f}")
     

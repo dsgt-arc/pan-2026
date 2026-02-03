@@ -35,7 +35,7 @@ All code will be placed in `harshul/src/003-deberta/`.
 
 ### Phase 3: Dataset & Tokenization
 
-- [x] Create `dataset.py` to wrap PAN2026 data in HuggingFace `Dataset` format.
+- [x] Create `dataset.py` to wrap PAN2025 data in HuggingFace `Dataset` format.
 - [x] Tokenize using `microsoft/deberta-v3-base` tokenizer.
 - [x] For training: use standard 512-token truncation (long docs will be chunked at inference).
 - [x] For inference: apply chunking and return all chunks per document.
@@ -59,24 +59,24 @@ All code will be placed in `harshul/src/003-deberta/`.
 
 ### Phase 4.5: Model Retrieval from Hugging Face
 
-**Model hosted at:** [`hersheys-baklava/deberta-pan2026`](https://huggingface.co/hersheys-baklava/deberta-pan2026)
+**Model hosted at:** [`hersheys-baklava/deberta-pan2025`](https://huggingface.co/hersheys-baklava/deberta-pan2025)
 
 - [x] Create `load_model.py` to pull the model from HuggingFace.
 - [x] Implement model loading:
   ```python
   from transformers import AutoModelForSequenceClassification, AutoTokenizer
   
-  model = AutoModelForSequenceClassification.from_pretrained("hersheys-baklava/deberta-pan2026")
-  tokenizer = AutoTokenizer.from_pretrained("hersheys-baklava/deberta-pan2026")
+  model = AutoModelForSequenceClassification.from_pretrained("hersheys-baklava/deberta-pan2025")
+  tokenizer = AutoTokenizer.from_pretrained("hersheys-baklava/deberta-pan2025")
   ```
 - [x] Add option to cache model locally in `artifacts/model/` directory.
 - [x] Test model loading and verify inference works.
 
-### Phase 5: Internal Evaluation (PAN2026 Validation) ✅ COMPLETE
+### Phase 5: Internal Evaluation (PAN2025 Validation) ✅ COMPLETE
 
 - [x] Create `evaluate.py`.
-- [x] Load model from HuggingFace: `hersheys-baklava/deberta-pan2026` (with local caching)
-- [x] Load PAN2026 validation data.
+- [x] Load model from HuggingFace: `hersheys-baklava/deberta-pan2025` (with local caching)
+- [x] Load PAN2025 validation data.
 - [x] For each validation sample:
   - Chunk the text using sliding window (512 tokens, 256 stride).
   - Run inference on each chunk.
@@ -102,14 +102,14 @@ All code will be placed in `harshul/src/003-deberta/`.
   - F1 Score: 0.0024 ⚠️ (threshold miscalibration)
   - F0.5u: 0.0059
 - [x] Save metrics to `artifacts/external_metrics.json`.
-- [x] Compare performance to in-distribution (PAN2026) results.
+- [x] Compare performance to in-distribution (PAN2025) results.
 - [ ] Analyze failure cases and error patterns.
 
 ### Phase 7: Results Documentation ✅ COMPLETE
 
 - [x] Update `harshul/experiments/003-deberta/results.md` with final metrics.
 - [x] Create comparison table:
-  | Model | PAN2026 ROC-AUC | HC3 ROC-AUC | Notes |
+  | Model | PAN2025 ROC-AUC | HC3 ROC-AUC | Notes |
   |-------|-----------------|-------------|-------|
   | LR Baseline | 0.9953 | 0.5520 | Baseline |
   | LightGBM | 0.9980 | 0.3356 | Inverted on OOD |
@@ -124,7 +124,7 @@ All code will be placed in `harshul/src/003-deberta/`.
 
 - [x] Create `harshul/notebooks/003-deberta/` directory.
 - [x] Create `deberta_training.ipynb` that mirrors the training loop:
-  - Load and tokenize PAN2026 data.
+  - Load and tokenize PAN2025 data.
   - Fine-tune DeBERTa-v3 with CPU-optimized settings.
   - Run evaluation on validation set.
 - [x] Add markdown explanations for each step (educational for new readers).
@@ -198,7 +198,7 @@ P(AI) = mean(p_1, p_2, ..., p_k)
 3. ~~Train model (completed on Colab GPU).~~ ✅
 4. ~~Upload model to Hugging Face Hub.~~ ✅
 5. ~~Create `load_model.py` to pull model from HuggingFace.~~ ✅
-6. ~~Run evaluation on PAN2026 validation set.~~ ✅ (ROC-AUC: 0.9948)
+6. ~~Run evaluation on PAN2025 validation set.~~ ✅ (ROC-AUC: 0.9948)
 7. ~~Run evaluation on HC3 (out-of-distribution test).~~ ✅ (ROC-AUC: 0.5939)
 8. **Generate plots** (confusion matrix, ROC curve). *(optional)*
 9. ~~Document results in `results.md` and compare to baselines.~~ ✅

@@ -5,7 +5,7 @@
 
 ## Summary
 
-DeBERTa-v3 achieves near-perfect performance on the in-distribution PAN2026 validation set (ROC-AUC: 0.9948) but shows **limited improvement** on out-of-distribution generalization compared to the LR baseline (HC3 ROC-AUC: 0.5939 vs 0.5520).
+DeBERTa-v3 achieves near-perfect performance on the in-distribution PAN2025 validation set (ROC-AUC: 0.9948) but shows **limited improvement** on out-of-distribution generalization compared to the LR baseline (HC3 ROC-AUC: 0.5939 vs 0.5520).
 
 **Verdict**: Partially confirmed - DeBERTa slightly improves OOD generalization over baselines but does not achieve the target of ≥0.70 ROC-AUC on HC3.
 
@@ -15,7 +15,7 @@ DeBERTa-v3 achieves near-perfect performance on the in-distribution PAN2026 vali
 
 | Metric | LR Baseline (001) | LightGBM (002) | DeBERTa (003) | Delta vs LR |
 |--------|-------------------|----------------|---------------|-------------|
-| **PAN2026 Validation** |
+| **PAN2025 Validation** |
 | ROC-AUC | 0.9953 | 0.9980 | **0.9948** | -0.0005 |
 | Brier | 0.0282 | - | 0.1106 | +0.0824 |
 | F1 | 0.9772 | - | 0.8834 | -0.0938 |
@@ -36,7 +36,7 @@ DeBERTa-v3 achieves near-perfect performance on the in-distribution PAN2026 vali
 - **Batch Size**: 2 (with gradient accumulation)
 - **Learning Rate**: 2e-5
 - **Max Sequence Length**: 512 tokens (with chunking for longer docs)
-- **Model hosted at**: [hersheys-baklava/deberta-pan2026](https://huggingface.co/hersheys-baklava/deberta-pan2026)
+- **Model hosted at**: [hersheys-baklava/deberta-pan2025](https://huggingface.co/hersheys-baklava/deberta-pan2025)
 
 ### Long Document Strategy
 
@@ -46,7 +46,7 @@ DeBERTa-v3 achieves near-perfect performance on the in-distribution PAN2026 vali
 
 ### Qualitative Observations
 
-1. **Strong in-distribution performance**: DeBERTa maintains near-perfect ROC-AUC (0.9948) on PAN2026, matching previous baselines.
+1. **Strong in-distribution performance**: DeBERTa maintains near-perfect ROC-AUC (0.9948) on PAN2025, matching previous baselines.
 
 2. **Modest OOD improvement**: HC3 ROC-AUC improved from 0.5520 (LR) to 0.5939 (+4.2 percentage points), suggesting DeBERTa captures slightly more generalizable patterns.
 
@@ -64,8 +64,8 @@ DeBERTa-v3 achieves near-perfect performance on the in-distribution PAN2026 vali
    - The model likely outputs lower probabilities on average for HC3 data.
 
 2. **Distribution shift problem persists**
-   - Despite using a transformer model, the domain shift between PAN2026 and HC3 remains a major challenge.
-   - The model has learned PAN2026-specific patterns that don't transfer well.
+   - Despite using a transformer model, the domain shift between PAN2025 and HC3 remains a major challenge.
+   - The model has learned PAN2025-specific patterns that don't transfer well.
 
 3. **LightGBM performed worse than random on OOD**
    - LightGBM's ROC-AUC of 0.3356 was actually *inverted* (below random).
@@ -74,7 +74,7 @@ DeBERTa-v3 achieves near-perfect performance on the in-distribution PAN2026 vali
 ### Recommendations
 
 1. **Recalibrate threshold for OOD**: Find optimal threshold on a small OOD calibration set.
-2. **Domain-adaptive fine-tuning**: Fine-tune on a mix of PAN2026 and HC3-like data.
+2. **Domain-adaptive fine-tuning**: Fine-tune on a mix of PAN2025 and HC3-like data.
 3. **Analyze prediction distributions**: Compare probability histograms between datasets.
 
 ### Confounders
@@ -88,13 +88,13 @@ DeBERTa-v3 achieves near-perfect performance on the in-distribution PAN2026 vali
 | Type | Location |
 |------|----------|
 | Model | `./artifacts/model/` (local cache) |
-| HuggingFace | [hersheys-baklava/deberta-pan2026](https://huggingface.co/hersheys-baklava/deberta-pan2026) |
+| HuggingFace | [hersheys-baklava/deberta-pan2025](https://huggingface.co/hersheys-baklava/deberta-pan2025) |
 | Val Metrics | `./artifacts/val_metrics.json` |
 | External Metrics | `./artifacts/external_metrics.json` |
 
 ## Next Steps
 
-- [ ] Analyze probability distribution differences between PAN2026 and HC3
+- [ ] Analyze probability distribution differences between PAN2025 and HC3
 - [ ] Find optimal threshold for HC3 dataset
 - [ ] Generate confusion matrix and ROC curve plots
 - [ ] Test with threshold recalibration

@@ -63,7 +63,7 @@ def compute_f05u(y_true, y_pred, y_prob=None):
 
 def get_all_metrics(y_true, y_pred, y_prob):
     """
-    Returns a dictionary of all required PAN2026 metrics.
+    Returns a dictionary of all required PAN2025 metrics.
     """
     return {
         "ROC-AUC": compute_roc_auc(y_true, y_prob),

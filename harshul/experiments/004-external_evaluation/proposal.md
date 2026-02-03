@@ -6,12 +6,12 @@
 
 ## Hypothesis
 
-Models trained on the PAN2026 dataset will exhibit varying degrees of out-of-distribution (OOD) generalization when evaluated on external datasets, with transformer-based models (DeBERTa) outperforming traditional ML baselines (Logistic Regression, LightGBM) on diverse AI-generated text sources.
+Models trained on the PAN2025 dataset will exhibit varying degrees of out-of-distribution (OOD) generalization when evaluated on external datasets, with transformer-based models (DeBERTa) outperforming traditional ML baselines (Logistic Regression, LightGBM) on diverse AI-generated text sources.
 
 ## Background
 
 Previous experiments (001-003) showed concerning results:
-- All models achieve >99% ROC-AUC on PAN2026 validation (in-distribution)
+- All models achieve >99% ROC-AUC on PAN2025 validation (in-distribution)
 - OOD performance on HC3 drops dramatically (LR: 0.55, LightGBM: 0.34, DeBERTa: 0.59)
 - Current evaluation is limited to a single external dataset (HC3 Wiki)
 
@@ -68,7 +68,7 @@ Systematically evaluate all three trained models (LR, LightGBM, DeBERTa) on mult
 
 ### Baseline
 
-| Model | PAN2026 Val | HC3 Wiki (current) |
+| Model | PAN2025 Val | HC3 Wiki (current) |
 |-------|-------------|-------------------|
 | Logistic Regression | 0.9953 | 0.5520 |
 | LightGBM | 0.9980 | 0.3356 |

@@ -22,7 +22,7 @@ We will train a binary logistic regression classifier. The input text will be co
 
 | Component | Details |
 |-----------|---------|
-| Data | PAN2026 dataset. |
+| Data | PAN2025 dataset. |
 | Compute | Local CPU or single-node CPU instance (minimal compute required). |
 | Dependencies | `scikit-learn`, `pandas`, `numpy`, `nltk` |
 | Code | `harshul/src/001-logistic_regression`|
@@ -55,7 +55,7 @@ We will train a binary logistic regression classifier. The input text will be co
 
 ### Baseline
 
-This experiment *is* the initial baseline using the PAN2026 dataset. The performance of a random classifier or majority class will serve as the trivial comparison point.
+This experiment *is* the initial baseline using the PAN2025 dataset. The performance of a random classifier or majority class will serve as the trivial comparison point.
 
 ### Success Criteria
 

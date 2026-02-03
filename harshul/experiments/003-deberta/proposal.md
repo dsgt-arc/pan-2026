@@ -20,22 +20,22 @@ The previous models relied on bag-of-words (TF-IDF) and hand-crafted stylometric
 
 ### Approach
 
-We will fine-tune `microsoft/deberta-v3-base` on the PAN2026 training data. Unlike previous experiments, we will minimize text cleaning to allow the model to leverage punctuation and casing patterns learned during pre-training.
+We will fine-tune `microsoft/deberta-v3-base` on the PAN2025 training data. Unlike previous experiments, we will minimize text cleaning to allow the model to leverage punctuation and casing patterns learned during pre-training.
 
 ### Setup
 
 | Component | Details |
 |-----------|---------|
-| Data | PAN2026 (train/val), HC3 Wiki (external test) |
+| Data | PAN2025 (train/val), HC3 Wiki (external test) |
 | Compute | GPU (NVIDIA A100 or similar suggested) |
 | Dependencies | `transformers`, `torch`, `datasets`, `accelerate` |
 | Code | `harshul/src/003-deberta/` |
 
 ### Procedure
 
-1. **Data Prep**: Tokenize PAN2026 data using the DeBERTa-v3 tokenizer (512 max length).
+1. **Data Prep**: Tokenize PAN2025 data using the DeBERTa-v3 tokenizer (512 max length).
 2. **Fine-tuning**: Train using the HuggingFace `Trainer` API with standard hyperparameters (Learning rate: 2e-5, Batch size: 16-32, Epochs: 3).
-3. **Internal Evaluation**: Compute PAN2026 metrics on the validation set.
+3. **Internal Evaluation**: Compute PAN2025 metrics on the validation set.
 4. **External Evaluation**: Run inference on the HC3 dataset to test OOD generalization.
 5. **Robustness Check**: If overfitting occurs, experiment with weight decay or freezing early layers.
 

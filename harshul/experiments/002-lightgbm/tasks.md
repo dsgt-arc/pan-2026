@@ -6,7 +6,7 @@ This experiment builds on the Logistic Regression baseline (001) by training a L
 1. **TF-IDF features** (reused from experiment 001)
 2. **Stylometric features** (new hand-crafted linguistic statistics)
 
-The goal is to improve out-of-distribution generalization (measured on HC3) while maintaining strong in-distribution performance (PAN2026 validation).
+The goal is to improve out-of-distribution generalization (measured on HC3) while maintaining strong in-distribution performance (PAN2025 validation).
 
 All code will be placed in `harshul/src/002-lightgbm/`.
 
@@ -59,7 +59,7 @@ All code will be placed in `harshul/src/002-lightgbm/`.
 
 ### Phase 5: Evaluation
 
-- [x] Create `evaluate.py` to evaluate on PAN2026 validation set.
+- [x] Create `evaluate.py` to evaluate on PAN2025 validation set.
 - [x] Create or extend `evaluate_external.py` to evaluate on HC3.
 - [x] Compute all metrics: ROC-AUC, Brier, C@1, F1, F0.5u.
 - [x] Save metrics to `artifacts/` directory.
@@ -95,7 +95,7 @@ All code will be placed in `harshul/src/002-lightgbm/`.
 - [ ] Log all trials to `artifacts/hyperparameter_search.csv`.
 - [ ] Save the best hyperparameters to `artifacts/best_params.json`.
 - [ ] Retrain the final model with the best hyperparameters.
-- [ ] Re-evaluate on both PAN2026 validation and HC3 external datasets.
+- [ ] Re-evaluate on both PAN2025 validation and HC3 external datasets.
 
 ### Phase 9: Feature Selection Optimization
 
@@ -118,7 +118,7 @@ All code will be placed in `harshul/src/002-lightgbm/`.
 
 - [ ] Combine best hyperparameters and feature set from Phases 8-9.
 - [ ] Train the final optimized model.
-- [ ] Evaluate on both PAN2026 validation and HC3 external datasets.
+- [ ] Evaluate on both PAN2025 validation and HC3 external datasets.
 - [ ] Update `results.md` with final optimized metrics.
 - [ ] Compare to initial LightGBM and LR baseline results.
 - [ ] Document lessons learned and recommendations for next experiments.
@@ -133,7 +133,7 @@ harshul/src/002-lightgbm/
 ├── stylometric_features.py  # Stylometric feature extraction
 ├── features.py              # Combine TF-IDF + stylometric
 ├── train.py                 # Main training script
-├── evaluate.py              # PAN2026 validation evaluation
+├── evaluate.py              # PAN2025 validation evaluation
 ├── evaluate_external.py     # HC3 external evaluation
 ├── importance_analysis.py   # Feature importance analysis
 ├── tune_hyperparams.py      # Hyperparameter tuning

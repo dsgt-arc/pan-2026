@@ -5,7 +5,7 @@
 
 ## Summary
 
-The hypothesis was partially confirmed in-distribution but failed significantly out-of-distribution: LightGBM with stylometric features improved PAN2026 metrics but showed severe degradation on the external HC3 dataset.
+The hypothesis was partially confirmed in-distribution but failed significantly out-of-distribution: LightGBM with stylometric features improved PAN2025 metrics but showed severe degradation on the external HC3 dataset.
 
 **Verdict**: rejected (failed to improve generalization)
 
@@ -13,7 +13,7 @@ The hypothesis was partially confirmed in-distribution but failed significantly 
 
 ### Quantitative
 
-| Experiment | PAN2026 Val ROC-AUC | HC3 External ROC-AUC |
+| Experiment | PAN2025 Val ROC-AUC | HC3 External ROC-AUC |
 |------------|---------------------|----------------------|
 | LR Baseline (001) | 0.9953 | 0.5520 |
 | LightGBM (Default, Combined) | 0.9964 | 0.3356 |
@@ -31,7 +31,7 @@ The hypothesis was partially confirmed in-distribution but failed significantly 
 ## Analysis
 
 1. **Stylometric Overfitting**: The addition of hand-crafted stylometric features (word length, sentence complexity, etc.) significantly improved in-distribution performance (up to **0.998 ROC-AUC**) but caused a massive drop in external generalization. "Stylo Only" produced the worst generalization (0.28 ROC-AUC), suggesting these features captured PAN-specific artifacts rather than universal AI signatures.
-2. **Hyperparameter Impact**: Tuning improved the PAN2026 validation score to near-perfection (0.998) but did not solve the generalization gap.
+2. **Hyperparameter Impact**: Tuning improved the PAN2025 validation score to near-perfection (0.998) but did not solve the generalization gap.
 3. **Feature Resilience**: TF-IDF features alone generalized better than the combined model, though still poorly.
 4. **The "Accent" Problem**: The model has essentially learned to detect the specific way AI was prompted or the specific LLMs used in the PAN dataset (e.g., preference for specific word lengths or punctuation patterns), which are inverted or absent in the HC3 dataset.
 
@@ -50,7 +50,7 @@ The hypothesis was partially confirmed in-distribution but failed significantly 
 
 ## Next Steps
 
-- [ ] Investigate the distribution of `avg_word_length` in PAN2026 vs HC3 to confirm the inversion.
+- [ ] Investigate the distribution of `avg_word_length` in PAN2025 vs HC3 to confirm the inversion.
 - [ ] Experiment with **Adversarial Training** or **Domain Adaptation** techniques to bridge the gap.
 - [ ] Shift towards **Transformer-based models** (BERT/RoBERTa) which might learn more robust linguistic patterns than simple heuristics.
 

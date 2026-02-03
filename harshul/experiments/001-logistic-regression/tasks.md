@@ -2,12 +2,12 @@
 
 ## Summary
 
-This experiment establishes a baseline for AI-generated text detection using a logistic regression classifier with TF-IDF features on the PAN2026 dataset. The implementation involves:
+This experiment establishes a baseline for AI-generated text detection using a logistic regression classifier with TF-IDF features on the PAN2025 dataset. The implementation involves:
 
 1. **Data loading and preprocessing** – Load the `train.jsonl` and `val.jsonl` files, extract text and labels, and apply basic text cleaning.
 2. **Feature extraction** – Fit a TF-IDF vectorizer on the training data and transform both train and validation sets.
 3. **Model training** – Train a logistic regression model on the TF-IDF features.
-4. **Evaluation** – Compute the required PAN2026 metrics (ROC-AUC, Brier, C@1, F1, F0.5u) on the validation set.
+4. **Evaluation** – Compute the required PAN2025 metrics (ROC-AUC, Brier, C@1, F1, F0.5u) on the validation set.
 5. **Results logging** – Save the metrics and model artifacts for reproducibility.
 
 All code will be placed in `harshul/src/001-logistic_regression/`.
@@ -90,7 +90,7 @@ All code will be placed in `harshul/src/001-logistic_regression/`.
 - [x] Download and preprocess the external dataset using the same pipeline.
 - [x] Evaluate the trained model on the external dataset without retraining.
 - [x] Compute all metrics: ROC-AUC, Brier, C@1, F1, F0.5u.
-- [x] Compare performance to PAN2026 validation set results.
+- [x] Compare performance to PAN2025 validation set results.
 - [x] Document findings to assess out-of-distribution generalization.
 
 ---
