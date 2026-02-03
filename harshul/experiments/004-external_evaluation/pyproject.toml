@@ -1,0 +1,15 @@
+[project]
+name = "experiment-004-external-evaluation"
+version = "0.1.0"
+description = "External evaluation benchmark for AI text detection models"
+requires-python = ">=3.10"
+
+# Experiment-specific dependencies (core deps inherited from root)
+dependencies = [
+    "seaborn",       # For heatmap visualizations
+    "tabulate",      # For table formatting
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
