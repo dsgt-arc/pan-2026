@@ -16,7 +16,7 @@ The PAN 2026 AI Detection task challenges participants to:
 
 ## Current Progress
 
-| Experiment | Model | PAN2026 Val ROC-AUC | HC3 (OOD) ROC-AUC | Status |
+| Experiment | Model | PAN2025 Val ROC-AUC | HC3 (OOD) ROC-AUC | Status |
 |------------|-------|---------------------|-------------------|--------|
 | 001 | Logistic Regression + TF-IDF | 0.9953 | 0.5520 | Complete |
 | 002 | LightGBM + Stylometric Features | 0.9980 | 0.3356 | Complete |
