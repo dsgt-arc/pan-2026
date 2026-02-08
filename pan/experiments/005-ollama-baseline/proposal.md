@@ -1,6 +1,6 @@
 # Proposal: Zero-Shot LLM Detection via Ollama
 
-**Status**: proposed
+**Status**: completed
 **Created**: 2026-02-05
 **Author**: harshul
 

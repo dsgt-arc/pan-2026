@@ -1,0 +1,39 @@
+{
+  "model": "qwen2:7b",
+  "prompt_type": "default",
+  "timestamp": "2026-02-07T22:28:55.749218",
+  "results": {
+    "PAN2025 Validation": {
+      "metrics": {
+        "ROC-AUC": 0.4605961298377028,
+        "Brier": 0.668,
+        "F1": 0.25112107623318386,
+        "C@1": 0.332,
+        "F0.5u": 0.39106145251396646
+      },
+      "summary": {
+        "total_samples": 500,
+        "correct": 166,
+        "accuracy": 0.332,
+        "ai_predictions": 90,
+        "human_predictions": 410
+      }
+    },
+    "HC3 Wiki": {
+      "metrics": {
+        "ROC-AUC": 0.41623975409836067,
+        "Brier": 0.59,
+        "F1": 0.528,
+        "C@1": 0.41000000000000003,
+        "F0.5u": 0.4666289592760181
+      },
+      "summary": {
+        "total_samples": 500,
+        "correct": 205,
+        "accuracy": 0.41,
+        "ai_predictions": 381,
+        "human_predictions": 119
+      }
+    }
+  }
+}

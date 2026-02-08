@@ -36,3 +36,4 @@ PAN 2026 experiments and code.
 | 002 | LightGBM + Stylometric Features | **Completed** | Hybrid model with TF-IDF and hand-crafted linguistic features |
 | 003 | DeBERTa-v3 Fine-tuning | **Completed** | Transformer-based model - ROC-AUC: 0.9948 (PAN2025), 0.5939 (HC3) |
 | 004 | External Evaluation Benchmark | **Completed** | OOD evaluation: 3 models × 5 datasets. DeBERTa leads (avg ROC-AUC 0.579) |
+| 005 | Zero-Shot Ollama Baseline | **Completed** | Zero-shot LLM detection via Qwen2 7B - ROC-AUC: 0.46 (PAN2025), 0.42 (HC3). Below random. |

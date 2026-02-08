@@ -1,0 +1,16 @@
+{
+  "metrics": {
+    "ROC-AUC": 0.4605961298377028,
+    "Brier": 0.668,
+    "F1": 0.25112107623318386,
+    "C@1": 0.332,
+    "F0.5u": 0.39106145251396646
+  },
+  "summary": {
+    "total_samples": 500,
+    "correct": 166,
+    "accuracy": 0.332,
+    "ai_predictions": 90,
+    "human_predictions": 410
+  }
+}

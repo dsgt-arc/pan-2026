@@ -1,0 +1,3502 @@
+[
+  {
+    "id": "7caf42b9-fd48-5e97-a0d0-0ae28a1f9603",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "28b61fc4-e82b-5cf8-bc34-1ecdb7182993",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "22398c76-da72-5724-973e-0981b8e9cbee",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3cd1e50d-e1f0-5f8f-bfb8-0b8a6048bcaa",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6e5745a6-0335-50cc-bdf0-fa0e1fee7518",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "e1b13063-7d5e-557e-8b48-052d92f7f36f",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6edf16f6-cda7-5b6d-8be5-fa9f19cc67d7",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "90b7abf7-7e0b-58fb-a34d-6bf8d7472f46",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "f32766d9-0611-5fa5-a698-792da7665b7b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c9f7f086-f7f7-52fd-a132-e4a639c90174",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "1e2baca6-1bcb-5a20-a556-f437f03dd2d9",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "583dcc91-6579-560f-93da-b4ce03a9dd16",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b09e1faa-6a2a-52a6-adf4-adfa58b602ac",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "e934892c-37af-5776-963a-b141e58f4f23",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "dc75a036-466a-5b9f-908c-2f1c87ee4cea",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "51aaface-4ed5-5ae6-856a-c13e2d7d5ae6",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "d4170869-937f-58ee-b932-1ec54e1e7ce6",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "aeefdd38-61d5-5871-8acf-1b65909b5496",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "e3f914a0-9c46-5ca8-baaf-e23e1f00c9e6",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "56eaf0b4-0eb5-5bce-b06e-6b0acce02749",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "9b1348cc-80f3-5a8d-b554-4ad03a6087c1",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "f3dfcf92-b571-5be6-8863-f738618db8c4",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "6ab5c801-f774-5d83-9424-851584c5e21f",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "de45a599-b6c6-5c67-9e2e-ebca768c204b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "d6bdefda-a40f-571d-bf18-be5bf4671c0c",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "da6fcff9-293e-51f0-b79b-6873b6f08eed",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "c2481928-1d57-57b3-afe4-0b4e3b912ab5",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "98f6e512-d8e2-5bb3-9545-14db9d286d98",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "2441d031-50f3-5a62-966c-cb887a3e8077",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "bf307a89-5661-5cd1-b8c3-b3f55935f65c",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "faa91748-71c6-5d66-aab3-905b90a361f1",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "d0cfdc47-587d-571c-8ed3-0c88287760c6",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "177ec50b-10d9-5416-886f-4eafe8779c64",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "33c3b7de-333d-592c-a3ef-23c220451a7b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6208a2c7-bdaf-53a0-916e-94b009ab143b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a9502fd6-f000-5ffc-b08b-9a1013a5ffb3",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "83f7906f-1985-54fc-940c-9b455897bd0d",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "2c02a2b7-465a-54be-9a25-ee74daa08f95",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "001ed870-d625-5329-977e-c3b0411c8358",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "90a99174-ef51-51b7-bb85-b25c30f66742",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "daf9d762-d5fe-5356-8701-88e0165b5021",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "27cadea5-8afa-5451-8140-f486fb48e90e",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "71362bb0-ecd4-5764-bb63-cf31f8b4f310",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "fe550c81-c5ad-5cf0-a1ac-c315195f7a3e",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "ec83c4df-3f28-5390-b325-f7d5e8213e7f",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "48ecb2ae-53af-5e45-a909-99b4a4fd1520",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "fa2ff699-1db8-5a62-852b-23a66f903497",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "d5563826-1016-5a98-9406-9a28f060d5a1",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "1ac553db-df13-5c7c-91da-ba2488f43829",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "55e71aa9-f61e-5ace-9d70-34a948d151cf",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c0fcdbc2-df00-57a6-a1ab-a26a37d982a5",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "9c0de03a-2dd3-5f8c-89c5-6baf2d992ee6",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "5877297b-6f86-50c8-905c-cd6d1ffdcec7",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "9a257142-e32c-56e1-bc26-fba00bf20eca",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "84d53b0f-676c-50de-a77d-ba525d9670ce",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "672fe4b2-d008-5a01-b410-580addfc4079",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "98825d5a-41fb-5551-bbd7-cfb140824990",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "a18d924f-a12d-51db-8872-da68632a7203",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "52369a9d-b9a1-57e2-ba7e-0b73666394c0",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6f8c561f-1f86-5347-a5b8-8d09f34f9f37",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "3592219e-5f46-5776-bb44-580c13306d7c",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "394eadbb-539f-5bff-83de-77293d588936",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a28cbee0-660a-50ec-96b0-fce44f4e8a80",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "ba1af03d-d6b1-5856-bdf8-9c9238d80d02",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "9f9fc75a-1ac3-5d90-a82f-f85502537c7a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "942264cb-6b92-5a1a-8cd0-9125d3ee151d",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "14a1b65d-adc4-5299-a8cc-de417eb2ef88",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "d9412b9d-2378-54fa-92c1-2d21641e8f8a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3a5564b7-210a-5ea1-843f-b4367a6df8a7",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "78cbab7d-531d-59e8-935f-f9f90d78a7a5",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "53ea9c0b-c76f-539e-8198-9b70af7981df",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "68a178e5-a171-53c3-b19f-022654d4f86a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a3cc0896-b7a1-5265-916b-1ec440fb62ec",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "5b40287d-d465-56a1-9516-65db54e0ce46",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c898f362-1126-5f4b-8152-8110f032505a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "86847b79-2265-5411-bfab-cb910c80778e",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3de8ba8f-eee5-5995-9b66-3c440a31967f",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c3b1cb51-d833-55ef-9ac9-cfb01ac357a3",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "11a0975e-421b-5810-9206-28619057dc92",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b85639b1-87ac-58e4-941b-63b974143510",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a7c7dc4b-251b-5e15-9cc4-6309b17b8487",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3926544f-07f4-5f72-8bfb-67ae10953fbb",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "792477e4-fb19-5df8-a952-2f55e6892297",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a9d93acd-73c9-540a-9dad-44a034bc2ca8",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "67c8be60-c8ba-5e2f-b364-6afef74f7111",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "60ab3bc2-0222-50a4-a128-8c8e6fc44fc5",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c9d5fa45-83b5-56d5-8176-5b38685e4815",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "9e3ba706-9e4f-540b-8561-5428b463ae88",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "350eef6d-2554-59f3-9b0d-398a92c99cfe",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "89c9f8b3-cfd4-5e19-b3ec-c027e447efe0",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "df95230b-41af-5585-b657-286b42a35f12",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3c977b63-3f6b-5f45-b363-3ab0cb0720e5",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "07c3ff61-026b-5066-af17-0ee8620113f4",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "25a016bd-dc6d-55a2-aa08-e015c8aff4e7",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "5e555adb-889a-567c-ac3b-dab6a0304b21",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "a1979cdc-7ae3-5790-a253-6187933601de",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "0f62b5d0-8934-5219-9077-a3d10ba86874",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "5c9b1f13-db4a-5006-b07d-34c007482f40",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a914d912-b513-5782-a71b-76a609f9ead6",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "79d32578-f9f8-5f63-94fd-ced529bc89be",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "90e4c8e7-0660-55d9-b96c-bc370ea23ce1",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "ce7d0cb3-7025-5785-bfbb-b0638cb1ac91",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c1cff177-b67c-5517-919a-c48eb865fe13",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "ef32825e-f9f0-5c81-aa68-539d19090143",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "394f995f-4986-5872-83d2-c8ae08ad0c48",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "3f6546f0-de3a-5bb6-9788-bb1e537bac4a",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "920a5944-39c6-58eb-a411-4cf4f8545dcd",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "ce2b7f1a-5602-5552-bb1f-d42bf450d716",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "5411a4e0-96de-5a47-aa88-0c310b1fdc89",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "bff2eb90-ca7a-5015-9efa-9c9b16a7156d",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "0748eb4d-9d46-5ada-b1e0-426876de460b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "dc324088-5696-528c-8c6e-dc9b57debef9",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b14efc4b-daa4-5849-9a4f-b03845efbd00",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "11d6257f-0a18-5a13-a893-3956762085f5",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "16a259dc-a22f-5fdd-9bec-613652d7f320",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "fdc4e4f2-042e-5523-83b2-4e009cd4a489",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "06683bf9-c84c-595e-bce6-e5967ea96281",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "8efb08f7-7abc-527e-85bb-4ab86b07b23e",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c9519ce8-890b-54b6-a7dd-e54b648854f5",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "5558e9da-3c78-54c1-a62c-2f9ee2227ff6",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a820ca06-149a-5275-8623-4d2c23cc6757",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7e424535-41f4-5544-8f53-d55875a26a1b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3e3e91c2-7e61-56b8-8333-68131ca70599",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b9bf81f5-e3e3-534f-b5d4-cbdbf11bd20f",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "56f203d2-af54-51c3-9a63-1b7bb17f8919",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7dcfe1bf-5a0b-5131-9d1e-4a7f37424eef",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c40c6e97-8447-577e-928d-7f75fc8658c0",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "5d9302bb-968f-5a00-a5d0-a9c30fd8a935",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "9e27ccdc-cc44-5f11-bb11-53562f8f6567",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7d112374-6046-5fe6-8015-cfa5ffb31b24",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "754943ac-e5fb-58b2-83ce-0cc30057e0f0",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "cf465a89-dc87-5623-bcbe-8a9a6956c1b3",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "514c37ac-61fd-5e1f-8879-13f848f6726d",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b9b6c831-c9f2-5cf3-b37a-fc1fae23a6eb",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "9138318b-f317-5ba5-80be-8457483ec173",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "958b282d-08ad-569a-8a10-e2f92cbfd0fd",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c65cfbcc-7900-598b-9f7d-a211e1f5f4ef",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "86a02a87-e044-5279-972d-8a31e4e49801",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3b614c36-4796-5431-9f89-d715a9b1cfcd",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "d737001b-55d7-59c2-bad2-58ee6fb1f07b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "48506264-a052-5f75-866b-799b2d8a2b0e",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "2647d484-c220-5b89-944a-0728bb60fda8",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6610ed21-f7e0-5fce-80db-85cb24fb6611",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "118c39ca-b402-5ab7-81c6-dab43f6a7e10",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b9b8bf51-debf-5ea7-b970-b739b6b23ce4",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "d363fe83-98cb-54c5-85d8-27aee6ba8e65",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "75b5c186-0c43-51df-ab1e-da6b93a72fbc",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3aea8060-5674-5e36-a259-e36082c416c2",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "e59b3a17-870f-5023-b029-5740343dcaf7",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "4a4a0e41-5e5b-561c-bd61-325089e8f000",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b8d1501f-efd9-5286-9eed-07ffa693eea7",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "df1b2e94-9f81-5555-898e-8767ea2773d1",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "8a6b8979-fc59-5501-b5c6-b7f01078d49a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6bb13847-181c-59de-8ae4-06d7a557785a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "dd8ba672-ea88-5f5d-a0a0-85181d3bbe19",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7101d8e6-72cf-55dd-9097-c007098a23c8",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "99ddabfd-6d2d-5a13-9460-67d492242471",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "fe288584-6e8f-5c70-a1b8-6f0a68776b37",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "15f70ad9-3866-5c8a-b459-aca9584ced87",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "ad61a2bc-1932-5355-a2bf-fd676d6b807a",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "14626bd8-42e6-506c-8701-5680e972ae22",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "bfe5991a-9062-5aca-ad45-308ea26c4b54",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "86514fd9-1c21-5d02-9803-e6a34ba21859",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a79e2d13-6381-5da7-870a-911ca608488c",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "ea04545c-09b0-5492-acc9-24ff9c980b8c",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "bae444eb-1357-5f45-b019-bfd2a689d4c5",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "d27fe458-3491-5868-bb8e-c53e16f1063b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a6de50f1-83cc-5c76-8fea-99b7b9b2ffe0",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3e3f6fe3-1f2a-5181-b40e-e914817a7563",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "af38fb8d-ff0a-558f-be16-c004530f055a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "068ff1c2-5886-5882-8ecf-6f68999d39b9",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7502fb0d-5dc8-52ce-98ce-4d2219044b98",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "b3ba88e5-c2d5-5867-b151-0b591ac01712",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "8ee2aa75-86bc-5f34-b494-86624b8259fe",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "4b47c9df-2427-5fb0-8af3-25c1269321e7",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "ef488891-2666-53b6-ad2d-d774f49c50bc",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "ebcf9033-867c-5e7c-9dbb-368fa5cd6c89",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "bb7d4d90-b948-57cc-a485-d9b31429eac9",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "845ff402-4e07-5f68-8ec9-0ffadc588d06",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "ea0bfda9-7856-5e9a-8f38-99f4f0e0e25d",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "68bb136d-7ea3-5252-aa07-df721cb7567a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "2601f0ad-ec95-5ba3-9f64-41f159c0de4b",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "508b2853-9d87-579c-9393-dc13e90c1797",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "93a687f1-5925-502c-9594-8fb30e6eb168",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "422b3ec9-cb46-5683-a869-b48fb69c8e06",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "46712d71-17b8-56ed-b604-12a1a12a639d",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "c16dfc0a-ad8e-5c1d-927e-4dc57e6a9016",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "d7004dbb-2156-5b70-8b6d-b568c1e3ffbc",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "23bf8990-dfaf-5c3c-ad47-327302f55c93",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "dc2a9670-97fd-5fb9-b72a-1a472f8dabe0",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "cc709877-b361-5c4c-bc6e-0bad224102b2",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "11012567-3d4e-5fce-aab0-19dec21d9ee7",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "c031b51a-775a-506c-bd25-c83741f4be7b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "5998f12b-97fb-5f84-ad16-a8a7491909e7",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "ccbd2d03-40f8-5740-b65f-ccff749f3333",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "af38de74-b8e9-5f8e-82a1-27970d06a830",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6dec8633-261a-5440-abd2-ac3483d24f60",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "000f299e-68c0-5bfe-93e9-d702e421e2e0",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "5ef3fddf-6515-5267-83db-a6b6b040179a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "ad2080d4-f435-572b-a272-16a32323d9f5",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "d01bffa3-f223-58a9-9746-b1e57efdb4ec",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "260a7960-d3c0-5b00-a03d-5114996bb004",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b1f62fcc-4b1a-56f5-b4e8-e79569e08b5a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c5afb8e0-664d-5f37-90b6-6eb2b2c076e8",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "d932d8d2-3981-5984-8022-8d4fb793f82d",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "35441419-99aa-58c3-8203-4827f21b2c1a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "27574f33-bb23-5846-94de-7bcdc3d9f31f",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "2d7d1d3a-b9e6-54ef-9f0e-b18e2b12d151",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "31519fd9-07f0-5c2a-8ec7-b4f91fcf0698",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "d0c47d06-5b5f-57e7-a56f-95b22dc58146",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7237090f-4763-5e31-8876-8f6797547702",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "ce05b247-178a-5eed-8f6b-fcc9b4e28c0e",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "378843cf-1b89-533b-8b25-0f3f0770972d",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "32472da2-c764-54b0-a4f4-86f9507f1daa",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "1d6eb988-63b1-547a-88f5-236512197052",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "0fae4a00-bef1-576c-802b-a829219c6524",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "9d66368d-eb84-5acc-ac56-4a2cb7da7dc7",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "35627e65-4216-5b36-b416-70d959f21cb1",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "744b919b-e499-58cd-aaf1-53db7abb7652",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a693853a-a536-511f-b65c-4965e310eecf",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "8d1f92cf-d9f4-5d6d-bc61-5dcd217d38c5",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "149117ed-05c9-508d-8cd7-18b56748a921",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "0e20192c-bb49-5173-a040-25eb7278452f",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3e6a781e-f123-51d5-9d62-1c722109ea38",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "93d8fe9e-5b9a-5590-bb16-a827f0901318",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6ff2d8e2-7a78-5eee-855b-d3b93f7741cd",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "558628e0-52fc-5e9d-9d93-699d5d56bc4b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "dbb44014-f00a-5d7f-93af-4d87ae26994d",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "557ce7c4-1ac7-53f6-bd05-053bacf77eb2",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "73fde320-3893-5353-912e-144f62d13b05",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a30d97f6-8329-5237-a127-7577d9fba0c7",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "ebe6d524-a361-519e-8b20-cf97c40d108f",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "481f0def-b49b-5948-8a97-47fa70eaf500",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "2aea1abc-af2d-5e63-bce6-00165ab80671",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "f009a094-d930-575b-b24b-0784218d7d65",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "44248a64-3a8d-5217-9166-2a25ad617b62",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "39bacaec-a2ab-5a0c-894e-eca8aa2f5234",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "958ba6bc-0e94-5436-a221-9f15e1e94954",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "44d518a9-dc30-52c1-9cdb-5cae831da9b3",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "11d86bb7-6355-55ee-a7e5-3d41cd1fcb01",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "3c5795bf-68e1-5797-a7c0-f83bff12274b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b5d9a712-0371-5d3e-900a-71aa028daa3b",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b5044c05-5d56-5367-bce7-d19ef57acc8b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "099d9318-efd9-56b5-aa82-c7ccfa07a9dc",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "9def09f0-6860-53ea-ac99-73d2905c425e",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "5e7b3442-59b3-517c-a795-75bc80b99e62",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c1e9973e-bd76-556e-8979-159170537e39",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "469abde8-63b7-50c5-b900-8a6813578cf5",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "68221986-18e1-503b-a7d6-d04e2f48c03a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "139b2370-c7ec-5095-af92-f2903039ca4a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6adf0b98-d44b-53ca-a06c-b176caa8f9ce",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b7006876-5722-58da-b7f2-bc705bdfb45d",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "df9f1b67-24f2-59b1-9ddd-1a27261ed311",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "34bf443c-8b72-5318-bec3-79290f736c78",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "537341e9-8d51-5230-9c70-fbafe95cf30f",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "fd7140de-fb8e-543e-84a4-b7da2bb7f757",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "8dac3651-090c-57c4-b861-33e85ed7261d",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "0ae4b28b-8171-5eed-bb06-3a12132fb592",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "43bf7e56-0002-5821-b24a-988301b8431b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6e11155c-a4a6-5fba-8152-9b567a7f69f7",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "266f68f3-ebc7-544d-8d47-226f5094c51b",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "46f771a0-393c-5177-aabd-3615480fb812",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "012309cc-7a5c-5513-959f-37abe6bcaa33",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "4b6e60cc-ebac-5ef4-babf-b85e1576d979",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "81a8c75c-695f-5c05-b26e-a01469bf9a9a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "318f4027-f3e3-5567-964c-53e298572914",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "21159c19-5d57-5d45-887f-08c3a98c827a",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b97f825a-4c77-5cb8-a6ff-3830f5a68829",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "9d676420-b3ac-54a1-bdf5-4d38c69dd0dd",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7e8b7d5d-ca33-50db-a048-51e5bca62b7c",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "5022bf38-d978-51de-8bad-3fb4fab67534",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "17d68ca7-6013-5bbe-ab82-336c1cf502a7",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "f3d24d2b-3a8f-5357-a255-7eff6e798cdb",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "979a86ff-218b-5460-aae3-d59f3fe84650",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "03315ccb-e084-5aff-beca-07be5e06d798",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "959179f7-de34-58c2-b988-f46e91b02aba",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "82c687b0-4d29-59f4-bb7c-35a967e80fdb",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "077c56f8-eea3-56a4-b6d0-2944690eff2e",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "e8e2fafc-618f-5f95-98ef-43fb346789c3",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "002c9d24-ac13-52dc-86da-eea5e4f8e2fa",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "9bcebe76-036e-592b-850c-1920208a9148",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "acafc5ce-f1fb-57c5-9403-01f849aab0f6",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "716a5d95-275c-5339-bb66-c5fc574a5e6b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "f7acb9cc-f568-50fd-9f5f-1ba9954ab1cb",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "394c57e2-4a7e-5b53-b33a-0dfc545fb690",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "fc9381e9-2108-597c-8c62-aa6758e45625",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "74e9ff79-872f-515f-b4e9-6f23f34de1fa",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a05f9aff-7dd7-51da-ba2d-519d4c7cfcb1",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "5468fa83-86f3-5b26-9267-7928d5e288d9",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "f3004072-cd0d-5a87-b34a-53dfed73aeea",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "0a4d9c36-5bce-5776-ac88-0e5d644a6c88",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "60845a58-0b80-599a-9957-a13321d04ac1",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "d6d1a949-77b8-5409-834d-26c46700c100",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3875c91e-92d3-5ee2-8852-e6de1773a494",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6658c650-fa85-5158-ab9b-61fd1f7640aa",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b6851c0d-22f7-57e2-8f26-d1f890cde74b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "67f7fbb7-f49e-5e0e-aa0a-529cb8184cd5",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "fa742702-a850-559c-a467-907704290172",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "9d3ed739-49a6-5c8f-bccf-7b835787f9e6",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "1d384bf5-404f-565c-92c4-7f47f58afab0",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "4b228ade-562d-5fc3-a53a-756c6f6e3a36",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "e9c0f9b9-37bf-5abe-a6a3-0a816b081e7c",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "363297a7-5921-5fed-976e-2ea2c858e79a",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "42e09636-4df7-548d-a417-91f9141fb5bd",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a1ec37bc-60de-5c9b-b7e9-5bd3e014b945",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c6a600e2-47a1-549f-88b1-fd077bca6e78",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "634b0a12-928a-5e9b-8c07-cb4863f7675b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "e957de38-524f-543d-89b9-16bd257cbeaa",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7381cc3c-bca4-50af-bf2a-92898117c600",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "05901779-acfc-526c-9de1-29497629b6a2",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c93d8a80-07d6-5cc7-aedc-c2fcd3734ffc",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "742f9e12-f6cb-58b0-8b7e-26883b075df3",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "f9276616-8bfd-534e-acd0-f4c5b15c8fb9",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "2b8271f7-ce30-5f43-8305-e82a90f31a41",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c621f357-df78-556c-a400-0e7118629865",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "30a87603-c575-5b74-b6fa-01d8e012569b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "fb1e1dd9-ca80-5c1b-bf26-a612562d4ce9",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a8d0e0c1-d8bc-59e7-b7ce-a26a183af1fb",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "198c6820-d3c7-50e0-b0cd-23f4be8ca406",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "94ac8382-54bb-5fb6-937e-4b3d4a32e204",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "ec7e1902-7032-5593-aea0-4127ae214a30",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "0ce0bf0c-859a-5f5f-8f07-51e700b210d3",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3d6115a0-3d8b-5aa1-a7f5-cbd7697bcb29",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "1c01a965-88cd-57ae-babf-bf5c607547bb",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "29ba29c3-3bd6-57a2-88be-638bc0733c2b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "90c1dbf1-2282-5a34-b74b-34b9588d0e30",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "620c0589-d1b1-59af-8c29-b19cfa76838d",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "d229d050-520d-5822-b5bd-2ee457a203d3",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "252ebbf7-7c7d-58dd-a639-c0e38429af1f",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6a36b3b5-ffd6-57e7-9f73-802a2fd289a1",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "8c08d83b-2e4e-5277-bd1c-4908c5c4be66",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3fdde009-b904-5e7c-8d7e-a7d3ff8b73de",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "2382c96c-3937-5935-917e-8254e215d36f",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "64d9c396-3f9f-5d78-afbb-194bc282b1e4",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7ad10318-d757-51bc-b564-4cf3807f18ed",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "e25227e0-409e-5244-bf85-82a25606e89b",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "21ce640b-d999-52a9-97f2-31d07e8dab51",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "fd941dd2-ef77-5613-ab03-7439bdcae6f4",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "515e3e44-8eda-5fab-8452-9e3e60c29302",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "c1fbacda-1c6e-51f7-9289-3cdeb5472a47",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "5081d481-d98b-5aae-a853-056bacc0a86a",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "5519dd7a-78b9-522f-942f-70b6ba2c7af5",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "e478401c-ec70-52b3-8a9c-365bf73d6529",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "4b18d78b-70c8-5ea6-b9b6-5964f5310403",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "7f694142-619c-5d30-8c2f-a75e187ab272",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "53e3529c-6a6b-5628-a946-8c802b846d3d",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "f17f0698-126a-539b-ba38-95e19a2b935d",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "4e5ca349-a62f-5775-a5d2-8136d8e61519",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "a0fd68ed-d6ca-5c5a-8c60-be172c9abcb3",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "d314b65a-8ba0-58d6-ad0f-7d00cb199728",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "efcf98c9-06ea-584d-a32e-225b6ad6e447",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "2602ec39-30fe-5ebd-a0e2-632301d591e6",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "053e68b4-f088-5dd7-ba46-f93bbb17cb70",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "61edf60a-912b-5093-98a6-1a3ae2f17c6f",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "258d6e37-030b-5dd6-9209-b793e506ca71",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "2795a9b7-33f2-5e3b-9050-82498726dd5d",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "9b2b968d-b6b3-5e77-89cf-1ad97f1303f8",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "261680ae-008a-5489-9911-3623226921ef",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "9c1f0898-ac36-55de-a52c-d8cb0efbb58c",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "a632f4bf-b82c-54de-9a4c-2e9d419a6c08",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6f178666-1c74-5bcf-882a-a10e68959ed0",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3927b82a-1988-5487-a78f-28eec7520ba8",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "1c800d1f-ca1a-5dd7-bf0f-2d16d6b64b76",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "83f63034-8947-5db0-a2ec-81a0c3a42ef2",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a40ade5c-2b82-5d88-aced-8c0af438c890",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "1a80dae8-15a9-596b-ad42-9e9c8ff28757",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "7ff7dc62-0f88-5092-aaf6-9b5ac4414797",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b01f877a-c267-50f7-9fde-5aac5a15295f",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "542152b0-02cf-55a8-9abd-2963256d1dfe",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "3dc7e6c8-317f-5b35-a87a-c495baee7345",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "30953e67-7a6a-5699-88a8-5d30daf749c4",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "f600482c-d079-5fdc-a34e-8f4c8507bccc",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "afb237e6-3136-54dd-b129-60aa8698e066",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "4e57f774-efd5-539a-988a-ee828fc26293",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "2b64c543-ac67-51ff-bab2-c5599cc564a6",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "033fd2a2-29ad-5b31-80a7-84d582f9b3f3",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "4d43b266-9935-5371-9062-604cc9d3f2fa",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "abcfa2f4-cff0-5189-b437-0cf476b7d694",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "1d905ca5-b3ff-5a18-8930-7fbac1de2572",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "d71ac581-d0dd-5976-b0c5-7a87e7962821",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "ee6c65be-17e9-51e1-9102-fdb8d3330137",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "ad011871-2182-50a3-bdec-ed54c4a27bde",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "d6a936be-3af9-56c1-9b53-43f3f00e2f92",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6dcb3c6c-e39a-53ea-bbcd-680268a68362",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "7b0a4212-3f05-58ec-a9de-1b9cbe04e1cc",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "73d89d0a-c73e-58c5-8663-0a81f603dd1f",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "32f692c4-1f36-5c2d-bc0f-8ee989f37588",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "59e4bad2-4159-553f-ade1-8df6b12dbbe3",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "650177ce-3c69-5490-a0ee-6769b3422127",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "92dc899b-7d7a-5df3-8591-f7df724136be",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "e6a636bb-0953-5e51-a679-660d0eec6edd",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a8a2a85b-124a-50ce-8a2c-64fb1e6e5e82",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "724e710f-3e2a-58bd-8509-6f16654820fa",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "43c5df30-d770-583b-936a-18eae890e753",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "46227b4b-509a-545b-9af1-704db35e8f04",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6c5bb266-76dd-5a25-b149-02acf4b58607",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "1117bb9f-f34d-5045-aa09-a2e06fc6f750",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "4284103c-e4ee-5109-8932-402ef5c79e2d",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7a62df09-eff1-5af5-b755-d774b703a7c7",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "330fcd96-dbb5-5812-a4fd-21fceb4b81d9",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6f02b106-3da6-59f1-aa27-de787e6754f0",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7301b05b-2256-5f53-8a36-5dd12dd5973a",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "369a709b-27a0-5368-8948-9fff218be873",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "096705cf-b603-5ec4-b56e-c1d2f94637da",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "cc48c12a-4464-542c-9339-3dd8244327fa",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "d5c773d6-3a98-5f6a-b426-6adb4817d098",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "c6de89e9-198e-5bb4-9b68-70e0094654ff",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "63219a4c-a67b-597f-a4c6-b6e50b1fdc6f",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "b4f29409-af69-5922-80e1-360b81c21374",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "09d45af9-a25a-57cd-91f4-f06043b617da",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "64de8e05-d466-5e42-b013-af61ef715505",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7873b36f-58a6-52c8-8ab0-c99356865f76",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "9f1ce556-2de5-53b9-baad-1d9050a7415d",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "2a0ba081-92c7-5652-a471-ea316e317acc",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "5a01b7c2-abbe-5542-b4f2-e8ac3f285135",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "50cd88c6-fc29-5b3f-92f5-dcd57de831c7",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6b1b5867-37db-53fb-9d90-378d1d51d368",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "844df0bf-9b53-54c2-916a-018e174772bf",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c401e75c-211d-5189-b3dd-ccc6d658e415",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a4cc496d-26f4-5ea8-b2e0-cded6b580333",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a6c7427f-90e8-5714-b191-66a1d42ce578",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "1dc535db-3fc2-5b8c-95a6-953963bb9831",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "1ad9c4e9-0c45-595b-8226-71963f5191b3",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "2a0074c4-893e-5c55-a226-d728a2020a31",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "37b2df30-8f57-5172-ac8e-df59b08e86f9",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "1d237167-1266-52be-9507-f9dc258e598a",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "405ae497-a9da-5228-9166-a14010169de6",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "63fc5cdf-91a9-5b11-94fa-88aa7db94605",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "397e620b-3448-5064-966f-5366e0e1c4e0",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "2693e422-91d0-5e9f-9d1a-72b6366d6d74",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "5ee1dc37-f1fc-5b95-8271-6d244dfa56de",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "5280280f-3f7c-59f9-b7dd-d60d759b36cc",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "0144cc8d-3ecc-552e-b3b4-b10cfa2b55bd",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "300d2447-8531-5a32-87d2-3f7d3e02a1be",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "40778838-912f-58e2-a394-c89d08528646",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a5fc5ec1-0a7f-5347-bfd3-0b8905d20ca5",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "10850e85-060a-5112-b1b2-08fc97f99704",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "65b98813-2c11-5e6b-a9f5-27579e5d5749",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "8f1e0a88-cb24-5f1d-9205-99707d58f504",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7de6d472-ce64-5403-afe0-41f2d23062a3",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "4e3ead5f-3c86-57af-9a9d-ea61281b8202",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "e944b9a3-40e1-5f34-9532-e21e2e81ad51",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "1fc83a66-0b94-551e-9c1c-0c7a78b0fdf1",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "95c554cb-6588-5118-bca5-b10da0b9abc2",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "8158862d-c4c5-5d53-83d7-87350a762155",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "83af351f-5512-5173-8e2a-b094037a9293",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "2fcf2bcd-9412-536a-8503-7cd11b9f10b1",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "83f01b23-0a38-5470-acde-44ae28f6bd63",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "583a80c1-50c1-5d9b-87df-13312eef73b6",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "03947e47-52f5-5cb6-ae41-2d287a73d883",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "42a10482-54c0-5add-ba4d-836cd41fa9c4",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "9aff4c72-03ac-597e-8a3e-c8441c6756f9",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "57d90881-b855-58ba-a219-7a69edfc2b5d",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "55bf84bb-c2b1-5eba-a077-7678c7aac8c3",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "137be46f-fc1c-5e16-8cca-bc77462f4be5",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "9ca81bbb-8c50-54b0-9ceb-960b44dcc7f2",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "c829623c-b7d5-54b6-b9d5-7aee58e8b575",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "61287b51-a522-5944-ac1b-fed9ab21170f",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "15a5dd2a-2800-5740-9755-6aa2cb3598e7",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a831e90e-24e7-5035-a33a-adb755a1d17d",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "a8ed0e8f-1840-53ab-908d-ca430dc92a44",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "fdcce37e-ca9d-5333-9441-bc2a70bba4e1",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "1d61ba21-dd38-5261-8dd0-166eb97da035",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "2374194f-06bc-5b97-8bdc-d7e4a3dad1d3",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "9151791b-5240-577f-80c5-5e2b4a2749f4",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "eb9558cb-9eee-509e-8134-c448d8b18206",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "195314d5-0c4c-569c-bf91-604de22251c9",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "f086853a-1047-558e-a4cf-89eb87365c95",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "cbd0d0ad-88b2-5af5-969c-769f6e8153c9",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "172eebb6-defa-5bf8-a038-783e6f9cd1de",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "d75cfcaa-f64d-5619-8273-063f0ea05c20",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "59ea3c7f-42d4-5004-bed0-684e9e19aaca",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "5a66703a-532c-58e3-a6bd-d95edb5e9452",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "95afee80-f4cf-5a09-b521-5dadbd19a3de",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7c64444d-36f1-5018-979c-c2336f2977d8",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "36dae2fd-1def-5a10-bbd6-f94c052c9f0e",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "88781488-af2d-5c3c-9761-ffe68be91128",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "72d657ef-4ff8-5ecf-8eda-1cc2cbe70ffc",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "10e0091d-086f-5b52-be60-92e353d0bfa1",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "24e8fae8-f6f5-5a6a-b4fa-ef4e107f45fc",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "eb1f0a9d-88e0-5635-ac0a-a0567ba933d0",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "301865f0-5fa0-5763-a943-4df0b79906f8",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7e3c2a58-58e6-5bab-b9cd-87c13aaff1a1",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "0136362a-b9b2-5177-9404-cf08f8eb4bce",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7cf526a8-cc7e-59f9-93c9-c8f5095d6607",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "ebd58c2b-d801-56cb-a50c-3a4828922dcd",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7954c1cf-e20c-5ac0-a1d8-56b330b355e1",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "421f141d-4664-532b-97c0-fef956c65175",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "d9278c37-4724-530f-a13b-b7e4cc498c55",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7aad2888-49a5-5182-b7f9-4234ee64e439",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "eeb32bf0-c3f8-5978-b22c-5f42462709b4",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "6e3b0eff-e30c-5dec-8578-1363a0ce2af7",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "53a06a36-1e3b-5a7c-9eab-0fe6c75558fd",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "e27afccb-f2e2-5cb0-957a-81690fb5ebb5",
+    "label": 0,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "dcd7db28-93a6-552a-bb42-345da1a0566f",
+    "label": 1,
+    "prediction": 1,
+    "probability": 1.0,
+    "response": "AI"
+  },
+  {
+    "id": "a1cd5280-a9f3-5404-8486-8d8d90d36622",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "8fe41fde-8a6f-5c7b-a2f4-ebbd86e0534f",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "7d145305-39e1-5f27-896b-ba5b342ee4c0",
+    "label": 1,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "10464510-cbe8-5610-9356-1cf528ac06fc",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  },
+  {
+    "id": "45166b0b-7ecc-5931-9156-ce47a52e002c",
+    "label": 0,
+    "prediction": 0,
+    "probability": 0.0,
+    "response": "HUMAN"
+  }
+]

@@ -1,11 +1,16 @@
 [project]
-name = "experiment-template"
+name = "experiment-005-ollama-baseline"
 version = "0.1.0"
-description = "Template for new PAN 2026 experiments"
+description = "Zero-shot LLM detection via Ollama for AI text classification"
 requires-python = ">=3.10"
 
-# Add experiment-specific dependencies here
-dependencies = []
+# Experiment-specific dependencies (core deps inherited from root)
+dependencies = [
+    "ollama",        # Ollama Python client for LLM inference
+    "pandas",        # Data loading and manipulation
+    "scikit-learn",  # Metrics computation (ROC-AUC, F1, etc.)
+    "tqdm",          # Progress bars for inference
+]
 
 [build-system]
 requires = ["hatchling"]
