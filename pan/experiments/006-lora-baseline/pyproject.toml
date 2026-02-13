@@ -1,0 +1,15 @@
+[project]
+name = "experiment-006-lora-baseline"
+version = "0.1.0"
+description = "LoRA fine-tuning of Qwen2.5-1.5B (causal LLM) for AI text detection"
+requires-python = ">=3.10"
+
+# Experiment-specific dependencies (core deps inherited from root)
+dependencies = [
+    "peft>=0.13.0",          # LoRA / parameter-efficient fine-tuning
+    "bitsandbytes>=0.43.0",  # Efficient model loading (optional quantisation)
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
