@@ -1,0 +1,21 @@
+[project]
+name = "experiment-007-ensemble-baseline"
+version = "0.1.0"
+description = "Ensemble of LR, DeBERTa, and Qwen LoRA for AI text detection"
+requires-python = ">=3.10"
+
+dependencies = [
+    "transformers",    # DeBERTa + Qwen model loading
+    "peft",            # LoRA adapter loading
+    "torch",           # Neural network inference
+    "scikit-learn",    # LR model + metrics
+    "joblib",          # LR model serialization
+    "numpy",           # Numerical operations
+    "pandas",          # Data handling
+    "tqdm",            # Progress bars
+    "jupyter",         # Notebook execution
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
