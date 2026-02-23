@@ -112,6 +112,8 @@ def get_training_args(output_dir: str, use_cpu: bool = True):
         report_to="wandb",
         run_name=WANDB_RUN_NAME,
         dataloader_num_workers=0,
+        # Mixed precision
+        bf16=True,
     )
 
 
