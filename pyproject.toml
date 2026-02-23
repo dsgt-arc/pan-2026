@@ -59,7 +59,7 @@ dev = [
 
 [tool.uv.workspace]
 members = [
-    "harshul/experiments/*",
+    "pan/experiments/*",
 ]
 
 [tool.hatch.build.targets.wheel]
