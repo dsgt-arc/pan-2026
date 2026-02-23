@@ -14,6 +14,7 @@ dependencies = [
     "scikit-learn",
     "tqdm",
     "joblib",
+    "ipykernel",
     
     # Data processing
     "pyspark>=3.4.0",
