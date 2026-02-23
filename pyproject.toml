@@ -57,10 +57,5 @@ dev = [
     "pytest",
 ]
 
-[tool.uv.workspace]
-members = [
-    "pan/experiments/*",
-]
-
 [tool.hatch.build.targets.wheel]
 packages = ["."]

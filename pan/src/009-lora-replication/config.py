@@ -27,12 +27,11 @@ MODEL_NAME = "Qwen/Qwen2.5-1.5B"
 NUM_LABELS = 2
 MAX_LENGTH = 512
 
-# ── LoRA (adapters library) ───────────────────────────────────
-ADAPTER_NAME = "lora_pan"
+# ── LoRA (PEFT) ───────────────────────────────────────────────
 LORA_R = 16
 LORA_ALPHA = 32
 LORA_DROPOUT = 0.1
-LORA_ATTN_MATRICES = ["q", "v"]  # adapters uses short names
+LORA_TARGET_MODULES = ["q_proj", "v_proj"]
 
 # ── Training ───────────────────────────────────────────────────
 LEARNING_RATE = 2e-4
@@ -52,3 +51,6 @@ CHUNK_STRIDE = 256  # 50% overlap
 WANDB_PROJECT = "pan-2026"
 WANDB_ENTITY = "hersheys-baklava"
 WANDB_RUN_NAME = "009-lora-replication"
+
+# ── HuggingFace ────────────────────────────────────────────────
+HF_REPO = "hersheys-baklava/qwen-lora-pan2026-009"

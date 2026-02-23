@@ -22,15 +22,12 @@ from huggingface_hub import login as hf_login, HfApi
 load_dotenv(Path(__file__).resolve().parent.parent.parent.parent / ".env")
 
 from config import (
-    TRAIN_FILE, VAL_FILE, ARTIFACTS_DIR, ADAPTER_NAME,
-    WANDB_PROJECT, WANDB_ENTITY, WANDB_RUN_NAME,
+    TRAIN_FILE, VAL_FILE, ARTIFACTS_DIR,
+    WANDB_PROJECT, WANDB_ENTITY, WANDB_RUN_NAME, HF_REPO,
 )
 from data import load_jsonl, get_tokenizer, tokenize_dataset
 from model import create_lora_model
 from train import get_training_args, run_training
-
-
-HF_REPO = "hersheys-baklava/qwen-lora-pan2026-009"
 
 
 def main():
@@ -80,7 +77,7 @@ def main():
 
     # ── Save ───────────────────────────────────────────────────
     adapter_dir = ARTIFACTS_DIR / "lora_adapter"
-    model.save_adapter(str(adapter_dir), ADAPTER_NAME)
+    model.save_pretrained(str(adapter_dir))
     tokenizer.save_pretrained(str(adapter_dir))
     print(f"Adapter saved to {adapter_dir}")
 

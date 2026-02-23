@@ -5,7 +5,7 @@ description = "Clean replication of 006: LoRA fine-tuning of Qwen2.5-1.5B for AI
 requires-python = ">=3.10"
 
 dependencies = [
-    "adapters>=1.0.0",  # AdapterHub — LoRA fine-tuning (replaces peft)
+    "peft>=0.13.0",     # LoRA fine-tuning
     "wandb",            # Experiment tracking & GPU monitoring
     "python-dotenv",    # .env file loading
     "huggingface_hub",  # Model upload
@@ -14,9 +14,3 @@ dependencies = [
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
-
-[tool.uv.workspace]
-members = [
-    "pan/experiments/*",
-    "pan/src/*",
-]
