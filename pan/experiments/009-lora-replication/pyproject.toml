@@ -8,9 +8,13 @@ dependencies = [
     "peft>=0.13.0",     # LoRA fine-tuning
     "wandb",            # Experiment tracking & GPU monitoring
     "python-dotenv",    # .env file loading
+    "dotenv",           # .env file loading
     "huggingface_hub",  # Model upload
 ]
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = []
