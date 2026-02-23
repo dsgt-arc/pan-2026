@@ -18,9 +18,12 @@ from config import (
     TRAIN_BATCH_SIZE,
     EVAL_BATCH_SIZE,
     GRADIENT_ACCUMULATION,
-    WARMUP_RATIO,
+    WARMUP_STEPS,
     WEIGHT_DECAY,
     EARLY_STOPPING_PATIENCE,
+    EVAL_STEPS,
+    SAVE_STEPS,
+    LOGGING_STEPS,
     WANDB_PROJECT,
     WANDB_RUN_NAME,
 )
@@ -96,24 +99,25 @@ def get_training_args(output_dir: str, use_cpu: bool = True):
         learning_rate=LEARNING_RATE,
         weight_decay=WEIGHT_DECAY,
         num_train_epochs=NUM_EPOCHS,
-        warmup_ratio=WARMUP_RATIO,
+        warmup_steps=WARMUP_STEPS,
         # Evaluation & saving
         eval_strategy="steps",
-        eval_steps=500,
+        eval_steps=EVAL_STEPS,
         save_strategy="steps",
-        save_steps=500,
+        save_steps=SAVE_STEPS,
         save_total_limit=2,
         load_best_model_at_end=True,
         metric_for_best_model="roc_auc",
         greater_is_better=True,
         # Logging — W&B
         logging_dir=str(ARTIFACTS_DIR / "logs"),
-        logging_steps=100,
+        logging_steps=LOGGING_STEPS,
         report_to="wandb",
         run_name=WANDB_RUN_NAME,
         dataloader_num_workers=0,
         # Mixed precision
-        bf16=True,
+        bf16=not use_cpu,
+        disable_tqdm=True,
     )
 
 

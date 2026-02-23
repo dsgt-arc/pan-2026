@@ -36,12 +36,15 @@ LORA_TARGET_MODULES = ["q_proj", "v_proj"]
 # ── Training ───────────────────────────────────────────────────
 LEARNING_RATE = 2e-4
 NUM_EPOCHS = 3
-TRAIN_BATCH_SIZE = 4
-EVAL_BATCH_SIZE = 8
-GRADIENT_ACCUMULATION = 4  # effective batch size = 16
-WARMUP_RATIO = 0.06
+TRAIN_BATCH_SIZE = 8
+EVAL_BATCH_SIZE = 16
+GRADIENT_ACCUMULATION = 2  # effective batch size = 16
+WARMUP_STEPS = 100
 WEIGHT_DECAY = 0.01
 EARLY_STOPPING_PATIENCE = 3
+EVAL_STEPS = 200
+SAVE_STEPS = 200
+LOGGING_STEPS = 50
 
 # ── Chunking (for evaluation) ─────────────────────────────────
 CHUNK_SIZE = 512

@@ -22,13 +22,19 @@ def create_lora_model(model_name: str = MODEL_NAME, device: str = "cpu"):
     Create a Qwen2.5-1.5B model with LoRA adapters for training.
     Returns the PEFT-wrapped model.
     """
+    import torch
     config = AutoConfig.from_pretrained(model_name)
     config.pad_token_id = config.eos_token_id
     config.num_labels = NUM_LABELS
     config.problem_type = "single_label_classification"
 
     base_model = AutoModelForSequenceClassification.from_pretrained(
-        model_name, config=config, torch_dtype="auto",
+        model_name, config=config, torch_dtype=torch.bfloat16,
+    )
+
+    # Gradient checkpointing for memory efficiency
+    base_model.gradient_checkpointing_enable(
+        gradient_checkpointing_kwargs={"use_reentrant": False}
     )
 
     lora_config = LoraConfig(
