@@ -46,6 +46,29 @@ The hypothesis is **confirmed** as the results match or exceed the success crite
 2. **RAID Improvement**: The significant improvement on RAID (0.815 -> 0.997) suggests that the new implementation of chunked inference or the specific training run generalized substantially better to this OOD dataset.
 3. **Workflow Efficiency**: The notebook-driven workflow calling into `src/009-lora-replication/` proved effective and easy to use without performance regression.
 
+## Visualizations
+
+Training metrics were logged to Weights & Biases (W&B) under the project `pan-2026`.
+
+### Training Loss
+![Training Loss](artifacts/wandb/train_loss.png)
+*W&B graph showing training loss progression. Shows smooth convergence over the 3 epochs.*
+
+### Evaluation ROC-AUC
+![Evaluation ROC-AUC](artifacts/wandb/eval_roc_auc.png)
+*W&B graph tracking the evaluation ROC-AUC on the validation set.*
+
+### GPU Resource Utilization
+![GPU Utilization](artifacts/wandb/gpu_util.png)
+*Monitoring gpu_memory_allocated_gb and gpu_memory_reserved_gb during training.*
+
+### W&B Run Details
+- **Project**: `pan-2026`
+- **Entity**: `hersheys-baklava`
+- **Run Name**: `009-lora-replication`
+- **Logging Frequency**: Every 50 steps
+- **Evaluation Frequency**: Every 200 steps
+
 ## Artifacts
 
 | Type | Location |
