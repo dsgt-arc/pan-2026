@@ -1,0 +1,15 @@
+{
+  "eval_loss": 0.015926264226436615,
+  "eval_roc_auc": 0.9997010930679333,
+  "eval_brier": 0.00279266107827425,
+  "eval_f1": 0.9976195628651807,
+  "eval_c_at_1": 0.9969350794093063,
+  "eval_f05u": 0.9980083131278144,
+  "eval_accuracy": 0.9969350794093063,
+  "eval_runtime": 655.862,
+  "eval_samples_per_second": 5.472,
+  "eval_steps_per_second": 0.343,
+  "epoch": 0.9446693657219973,
+  "gpu_memory_allocated_gb": 3.133714944,
+  "gpu_memory_reserved_gb": 5.335154688
+}
