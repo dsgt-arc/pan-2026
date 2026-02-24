@@ -1,6 +1,6 @@
 # Proposal: LoRA Replication (Clean Notebook Workflow)
 
-**Status**: in-progress
+**Status**: completed
 **Created**: 2026-02-22
 **Author**: tanish
 
