@@ -63,10 +63,10 @@ def apply_homoglyph(text: str, h_prob: float = 0.05, zwj_prob: float = 0.05) -> 
     - With probability h_prob, replace with a visually similar unicode character
     - With probability zwj_prob, insert a zero-width joiner after the character
 
-    Uses the `confusables` library for character replacement, matching
-    the mdok approach from experiment 008.
+    Uses the `confusable_homoglyphs` library for character replacement,
+    matching the mdok approach from experiment 008.
     """
-    from confusables import is_confusable
+    from confusable_homoglyphs import confusables
 
     result = []
     for char in text:
@@ -77,7 +77,7 @@ def apply_homoglyph(text: str, h_prob: float = 0.05, zwj_prob: float = 0.05) -> 
 
         # Homoglyph swap
         if random.random() < h_prob:
-            confusable = is_confusable(char, greedy=True)
+            confusable = confusables.is_confusable(char, greedy=True, preferred_aliases=[])
             if confusable:
                 # Pick a random confusable character
                 alternatives = []

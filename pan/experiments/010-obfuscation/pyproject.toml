@@ -9,7 +9,7 @@ dependencies = [
     "wandb",            # Experiment tracking & GPU monitoring
     "python-dotenv",    # .env file loading
     "huggingface_hub",  # Model upload & dataset download
-    "confusables",      # Unicode homoglyph character lookup
+    "confusable_homoglyphs", # Unicode homoglyph character lookup
     "nltk",             # WordNet synonym lookup
     "datasets",         # HuggingFace datasets for OOD data
     "scikit-learn",     # Metrics
