@@ -150,17 +150,17 @@ def main():
         if isinstance(v, (int, float)):
             wandb.run.summary[f"final_val/{k}"] = v
 
-    # ── Save ───────────────────────────────────────────────────
-    adapter_dir = ARTIFACTS_DIR / "lora_adapter"
-    model.save_pretrained(str(adapter_dir))
-    tokenizer.save_pretrained(str(adapter_dir))
-    print(f"Adapter saved to {adapter_dir}")
-
+    # ── Save metrics locally ────────────────────────────────────
     with open(ARTIFACTS_DIR / "training_val_metrics.json", "w") as f:
         json.dump(eval_results, f, indent=2)
 
-    # ── Upload ─────────────────────────────────────────────────
+    # ── Upload adapter to HuggingFace ─────────────────────────
     if not args.skip_upload:
+        # Save adapter to temp dir for upload
+        adapter_dir = ARTIFACTS_DIR / "lora_adapter"
+        model.save_pretrained(str(adapter_dir))
+        tokenizer.save_pretrained(str(adapter_dir))
+
         api = HfApi()
         api.create_repo(HF_REPO, exist_ok=True)
         api.upload_folder(

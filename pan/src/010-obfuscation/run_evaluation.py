@@ -26,7 +26,7 @@ from config import (
     VAL_FILE, HC3_FILE, RAID_FILE,
     MAGE_FILE, OPENGPTTEXT_FILE,
     EXTERNAL_DIR, ARTIFACTS_DIR,
-    WANDB_PROJECT, WANDB_ENTITY, WANDB_RUN_NAME,
+    WANDB_PROJECT, WANDB_ENTITY, WANDB_RUN_NAME, HF_REPO,
 )
 from data import load_jsonl, get_tokenizer
 from model import load_trained_model
@@ -36,12 +36,12 @@ from evaluate import evaluate_dataset, print_comparison
 def main():
     parser = argparse.ArgumentParser(description="010: LoRA evaluation on all datasets")
     parser.add_argument("--adapter-path", default=None,
-                        help="Path to saved adapter (default: artifacts/lora_adapter)")
+                        help="Path or HF repo for adapter (default: HF_REPO)")
     parser.add_argument("--max-samples", type=int, default=None,
                         help="Limit samples per dataset")
     args = parser.parse_args()
 
-    adapter_path = args.adapter_path or str(ARTIFACTS_DIR / "lora_adapter")
+    adapter_path = args.adapter_path or HF_REPO
     ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
