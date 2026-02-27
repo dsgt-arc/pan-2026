@@ -62,7 +62,7 @@ CHUNK_STRIDE = 256  # 50% overlap
 
 # ── W&B ────────────────────────────────────────────────────────
 WANDB_PROJECT = "pan-2026"
-WANDB_ENTITY = "hersheys-baklava"
+WANDB_ENTITY = "spar"
 WANDB_RUN_NAME = "010-obfuscation"
 
 # ── HuggingFace ────────────────────────────────────────────────

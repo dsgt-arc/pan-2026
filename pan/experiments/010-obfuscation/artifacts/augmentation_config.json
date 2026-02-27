@@ -1,0 +1,11 @@
+{
+  "homoglyph_frac": 0.1,
+  "synonym_frac": 0.1,
+  "homoglyph_prob": 0.05,
+  "zwj_prob": 0.05,
+  "synonym_prob": 0.2,
+  "train_samples": 23707,
+  "ai_samples": 14606,
+  "n_homoglyph_augmented": 1460,
+  "n_synonym_augmented": 1460
+}
