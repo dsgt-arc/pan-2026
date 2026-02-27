@@ -1,30 +1,30 @@
+#!/usr/bin/env python3
 """
-PAN 2026 TIRA Submission Script — Experiment 010 (Obfuscation-Robust LoRA).
+PAN 2026 TIRA Submission — Experiment 010 (Obfuscation-Robust LoRA).
 
 Loads the Qwen2.5-1.5B + LoRA adapter, processes each test case in isolation,
 and writes predictions as JSONL with confidence scores.
 
 Usage (TIRA invocation):
-    python run_submission.py $inputDataset/dataset.jsonl $outputDir
+    python run_submission.py --input $inputDataset/dataset.jsonl --output $outputDir
 
-The adapter is expected at /model inside the Docker container (baked in at
-build time). For local testing, pass --adapter-path to override.
+The merged model is expected at /model inside the Docker container (baked in
+at build time). For local testing, pass --model-path to override.
 """
 
 import sys
 import json
-import argparse
 from pathlib import Path
 from typing import List, Tuple
 
+import click
 import numpy as np
 import torch
 from transformers import (
     AutoModelForSequenceClassification,
-    AutoConfig,
     AutoTokenizer,
 )
-from peft import PeftModel
+from peft import PeftModel, AutoPeftModelForSequenceClassification
 
 # ── Constants ──────────────────────────────────────────────────────
 MODEL_NAME = "Qwen/Qwen2.5-1.5B"
@@ -32,6 +32,7 @@ NUM_LABELS = 2
 MAX_LENGTH = 512
 CHUNK_SIZE = 512
 CHUNK_STRIDE = 256  # 50 % overlap
+DEFAULT_MODEL_PATH = "/model"
 
 
 # ── Chunking (inlined from 003-deberta/chunking.py) ───────────────
@@ -69,20 +70,17 @@ def load_model(model_path: str, device: str = "cpu"):
     """
     Load the model for inference.
 
-    First tries to load as a pre-merged model (Docker container scenario where
-    the Dockerfile already merged base + LoRA at build time).  Falls back to
-    loading base model + PEFT adapter and merging on the fly (local testing
-    with a HuggingFace adapter repo).
+    Tries loading as a pre-merged model first (Docker scenario).
+    Falls back to PEFT adapter merge (local testing with HF repo).
     """
     try:
-        # Pre-merged model (inside Docker container)
         model = AutoModelForSequenceClassification.from_pretrained(
             model_path, torch_dtype="auto",
         )
         print(f"[submission] loaded pre-merged model from {model_path}",
               file=sys.stderr)
     except Exception:
-        # Adapter-only path — need base model + PEFT merge
+        from transformers import AutoConfig
         config = AutoConfig.from_pretrained(MODEL_NAME)
         config.pad_token_id = config.eos_token_id
         config.num_labels = NUM_LABELS
@@ -101,8 +99,12 @@ def load_model(model_path: str, device: str = "cpu"):
     return model
 
 
-def get_tokenizer():
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+def get_tokenizer(model_path: str = DEFAULT_MODEL_PATH):
+    """Load tokenizer — tries the merged model dir first, then the base model."""
+    try:
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+    except Exception:
+        tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = "left"
@@ -138,27 +140,25 @@ def predict_single(model, tokenizer, text: str, device: str = "cpu") -> float:
 
 
 # ── Main ──────────────────────────────────────────────────────────
-def main():
-    parser = argparse.ArgumentParser(
-        description="PAN 2026 AI-generated text detector (exp 010)")
-    parser.add_argument("input_file", help="Path to input JSONL file")
-    parser.add_argument("output_dir", help="Directory to write predictions")
-    parser.add_argument("--adapter-path", default="/model",
-                        help="Path to LoRA adapter (default: /model)")
-    args = parser.parse_args()
-
-    input_path = Path(args.input_file)
-    output_dir = Path(args.output_dir)
+@click.command()
+@click.option("--input", "input_file", type=click.Path(exists=True), required=True,
+              help="Absolute path to the input JSONL file (dataset.jsonl).")
+@click.option("--output", "output_dir", type=click.Path(), required=True,
+              help="Absolute path to the output directory.")
+@click.option("--model-path", type=str, default=DEFAULT_MODEL_PATH,
+              help="Path to merged model or HF adapter repo (default: /model).")
+def main(input_file, output_dir, model_path):
+    input_path = Path(input_file)
+    output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"[submission] device={device}", file=sys.stderr)
 
     # Load model once
-    print(f"[submission] loading adapter from {args.adapter_path}",
-          file=sys.stderr)
-    model = load_model(args.adapter_path, device=device)
-    tokenizer = get_tokenizer()
+    print(f"[submission] loading model from {model_path}", file=sys.stderr)
+    model = load_model(model_path, device=device)
+    tokenizer = get_tokenizer(model_path)
 
     # Read input
     records = []
