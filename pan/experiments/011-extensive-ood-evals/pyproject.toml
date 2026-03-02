@@ -1,0 +1,24 @@
+[project]
+name = "experiment-011-extensive-ood-evals"
+version = "0.1.0"
+description = "Extensive out-of-distribution evaluation of experiment 010 model across 7 OOD datasets"
+requires-python = ">=3.10"
+
+dependencies = [
+    "transformers>=4.40.0",  # Model loading
+    "peft>=0.10.0",           # LoRA adapter loading
+    "datasets>=2.18.0",       # HuggingFace dataset loading
+    "torch>=2.0.0",           # PyTorch backend
+    "scikit-learn>=1.4.0",    # Metrics computation
+    "numpy>=1.26.0",          # Numerical operations
+    "pandas>=2.2.0",          # Data manipulation
+    "matplotlib>=3.8.0",      # Visualization
+    "seaborn>=0.13.0",        # Heatmap visualization
+    "tqdm>=4.66.0",           # Progress bars
+    "accelerate>=0.28.0",     # Model loading utility
+    "huggingface_hub>=0.21.0", # Upload results to HF
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

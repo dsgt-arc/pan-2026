@@ -42,3 +42,4 @@ PAN 2026 experiments and code.
 | 008 | Homoglyph Augmentation | **Completed** | Homoglyph-only augmentation — marginal HC3 gain but RAID regression. Rejected. |
 | 009 | LoRA Replication | **Completed** | Clean replication of 006. ROC-AUC: 0.9993 (PAN2025), 0.9977 (HC3), 0.9974 (RAID) |
 | 010 | Obfuscation Augmentation | **Completed** | Homoglyph + synonym augmentation. ROC-AUC: 0.9995 (PAN2025), 0.9985 (HC3), 0.9964 (RAID) |
+| 011 | Extensive OOD Evals | **Completed** | 5/7 OOD datasets evaluated. Avg ROC-AUC: 0.7975. Strong on M4 (0.99), RAID (1.00); fails on AI Pile (0.41), MAGE (0.67). ❌ All criteria failed. |
