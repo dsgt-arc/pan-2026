@@ -1,8 +1,8 @@
 # Proposal: Extensive Out-of-Distribution Evaluation
 
-**Status**: in-progress
+**Status**: completed
 **Created**: 2026-03-02
-**Author**: tanish
+**Author**: harshul
 
 ## Hypothesis
 

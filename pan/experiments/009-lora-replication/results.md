@@ -1,7 +1,7 @@
 # Results: 009-lora-replication
 
 **Date Completed**: 2026-02-24
-**Author**: tanish
+**Author**: harshul
 
 ## Summary
 

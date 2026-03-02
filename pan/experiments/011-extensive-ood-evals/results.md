@@ -5,13 +5,31 @@
 
 ## Summary
 
-Evaluated the experiment 010 obfuscation-augmented Qwen 2.5-1.5B LoRA model on **5 out of 7 planned OOD datasets**. TuringBench and HC3 Multi-Domain failed to load at runtime (likely due to dataset availability or format issues on HuggingFace) and were excluded.
+Evaluated **two models** on **5 out of 7 planned OOD datasets**. TuringBench and HC3 Multi-Domain failed to load at runtime (dataset availability / format issues on HuggingFace) and were excluded from both runs.
 
-The model shows **extreme polarization** in OOD generalization. It achieves near-perfect performance on M4/SemEval 2024 (0.9915) and RAID Adversarial (1.0000), but **catastrophically fails** on AI Detection Pile (0.4119 — worse than random) and underperforms on MAGE (0.6702). This reveals that the model's generalization is highly domain-dependent rather than broadly robust.
+| Model | Adapter | Avg ROC-AUC |
+|-------|---------|-------------|
+| **Exp-009** | `hersheys-baklava/qwen-lora-pan2026-009` (base LoRA) | 0.8142 |
+| **Exp-010** | `hersheys-baklava/qwen-lora-pan2026-010-obfuscation` (obfuscation-augmented) | 0.7975 |
 
-**Overall average ROC-AUC: 0.7975** — below the 0.90 target. The evaluation **fails all three success criteria**.
+Both models show **extreme polarization** in OOD generalization. Near-perfect performance on M4/SemEval 2024 and RAID Adversarial contrasts with catastrophic failure on AI Detection Pile (Exp-009: 0.4486, Exp-010: 0.4119 — both worse than random) and poor performance on MAGE (~0.68). The obfuscation augmentation did **not** improve OOD generalization and slightly degraded average performance. **Both evaluations fail all three success criteria.**
 
-## Results Table
+## Results Tables
+
+### Exp-009 — Base LoRA (`qwen-lora-pan2026-009`)
+
+| Dataset | ROC-AUC | Brier | F1 | C@1 | F0.5u |
+|---------|---------|-------|-----|------|-------|
+| MAGE | 0.6789 | 0.3394 | 0.4701 | 0.6460 | 0.6698 |
+| OpenGPTText | 0.9447 | 0.1305 | 0.8345 | 0.8560 | 0.9167 |
+| AI Detection Pile | 0.4486 | 0.4251 | 0.2748 | 0.5620 | 0.4531 |
+| M4 / SemEval 2024 | 0.9992 | 0.0072 | 0.9920 | 0.9920 | 0.9944 |
+| RAID Adversarial | 0.9996 | 0.0042 | 0.9950 | 0.9950 | 0.9968 |
+| ~~TuringBench~~ | — | — | — | — | — |
+| ~~HC3 Multi-Domain~~ | — | — | — | — | — |
+| **AVERAGE (5 datasets)** | **0.8142** | **0.1813** | **0.7133** | **0.8102** | **0.8061** |
+
+### Exp-010 — Obfuscation-Augmented (`qwen-lora-pan2026-010-obfuscation`)
 
 | Dataset | ROC-AUC | Brier | F1 | C@1 | F0.5u |
 |---------|---------|-------|-----|------|-------|
@@ -24,7 +42,30 @@ The model shows **extreme polarization** in OOD generalization. It achieves near
 | ~~HC3 Multi-Domain~~ | — | — | — | — | — |
 | **AVERAGE (5 datasets)** | **0.7975** | **0.2046** | **0.6774** | **0.7821** | **0.7720** |
 
-## Baseline (Experiment 010 — In-Distribution)
+### Head-to-Head ROC-AUC
+
+| Dataset | Exp-009 | Exp-010 | Δ (009−010) |
+|---------|---------|---------|-------------|
+| MAGE | 0.6789 | 0.6702 | +0.0087 |
+| OpenGPTText | 0.9447 | 0.9139 | +0.0308 |
+| AI Detection Pile | 0.4486 | 0.4119 | +0.0367 |
+| M4 / SemEval 2024 | 0.9992 | 0.9915 | +0.0077 |
+| RAID Adversarial | 0.9996 | 1.0000 | −0.0004 |
+| **AVERAGE** | **0.8142** | **0.7975** | **+0.0167** |
+
+Exp-009 outperforms Exp-010 on 4 of 5 datasets. The obfuscation augmentation yielded no OOD benefit.
+
+## Baselines (In-Distribution)
+
+### Exp-009
+
+| Dataset | ROC-AUC |
+|---------|---------|
+| PAN2025 Val | 0.9993 |
+| HC3 Wiki | 0.9977 |
+| RAID | 0.9974 |
+
+### Exp-010
 
 | Dataset | ROC-AUC |
 |---------|---------|
@@ -36,43 +77,53 @@ The model shows **extreme polarization** in OOD generalization. It achieves near
 
 ### Tier 1: Near-Perfect (ROC-AUC ≥ 0.99)
 
-- **RAID Adversarial (1.0000)**: The model handles adversarial perturbations flawlessly. This is unsurprising since RAID was part of the experiment 010 evaluation suite, but the adversarial subset specifically tests robustness to attacks — the model passes this with flying colors. Brier score of 0.0033 indicates excellent calibration.
+- **RAID Adversarial** (Exp-009: 0.9996, Exp-010: 1.0000): Both models handle adversarial perturbations flawlessly. Since RAID was part of both training evaluation suites, the adversarial subset provides a sanity check — both pass easily.
 
-- **M4 / SemEval 2024 (0.9915)**: Near-perfect discrimination on this multi-domain benchmark. All metrics are above 0.98, and the Brier score of 0.0139 shows highly calibrated predictions. This suggests strong generalization to the types of AI-generated text represented in this competition dataset.
+- **M4 / SemEval 2024** (Exp-009: 0.9992, Exp-010: 0.9915): Near-perfect discrimination on this multi-domain benchmark. All metrics above 0.98 for both models. Strong generalization to competition-style AI text.
 
 ### Tier 2: Good (ROC-AUC ≥ 0.90)
 
-- **OpenGPTText (0.9139)**: Solid performance on GPT-generated Wikipedia introductions. The model correctly identifies most AI text, though the F1 of 0.7241 suggests some difficulty at the decision boundary. The Brier score of 0.1985 indicates moderate calibration issues — the model is less confident in its predictions for this domain.
+- **OpenGPTText** (Exp-009: 0.9447, Exp-010: 0.9139): Solid performance on GPT-generated Wikipedia introductions for both models. Exp-009 scores notably higher (+0.031). Both show moderate calibration issues (Brier ~0.13–0.20).
 
 ### Tier 3: Poor (ROC-AUC < 0.70)
 
-- **MAGE (0.6702)**: Below the 0.70 floor target. MAGE spans 27 different LLMs across multiple domains. The model's Brier score of 0.3530 and F1 of 0.4316 suggest it struggles to distinguish many of these generators from human text. This is a significant generalization gap.
+- **MAGE** (Exp-009: 0.6789, Exp-010: 0.6702): Both models fail to generalize to this 27-LLM multi-domain benchmark. The gap between models is small; neither learns general AI-detection features.
 
-- **AI Detection Pile (0.4119)**: **Worse than random chance** (0.50). The model's predictions are actively inverted for this dataset — it tends to classify AI text as human and vice versa. The Brier score of 0.4544 is near the worst possible value. This dataset contains long-form essays from GPT-2/3/ChatGPT/GPT-J, suggesting the model has learned features that are anti-correlated with AI-generation signals for these specific generators and text lengths.
+- **AI Detection Pile** (Exp-009: 0.4486, Exp-010: 0.4119): **Worse than random chance for both models.** Predictions are actively inverted — both models tend to classify AI text as human and vice versa. Long-form essays from GPT-2/3/ChatGPT/GPT-J expose anti-correlated heuristics in both models. Exp-009 is marginally less wrong (+0.037).
 
 ## Visualizations
 
 ### ROC-AUC Comparison
 ![ROC-AUC Comparison](artifacts/ood_roc_comparison.png)
 
-The bar chart vividly illustrates the three-tier split: RAID and M4 at ~1.0, OpenGPTText at ~0.91, and MAGE and AI Detection Pile far below the floor threshold.
+Grouped bar chart comparing both models across all 5 OOD datasets. Exp-009 (blue) consistently outperforms Exp-010 (orange) except on RAID Adversarial where Exp-010 achieves a perfect 1.0000. Both models show the same three-tier structure.
 
 ### Metrics Heatmap
 ![Metrics Heatmap](artifacts/ood_metrics_heatmap.png)
 
-The heatmap reveals that the performance gap is consistent across all metrics — it's not just ROC-AUC. AI Detection Pile shows uniformly poor metrics, while M4 and RAID are dark blue across the board.
+Side-by-side heatmaps for Exp-009 (YlGnBu) and Exp-010 (YlOrRd). The performance gap is consistent across all metrics — MAGE and AI Detection Pile are uniformly poor for both models; M4 and RAID are uniformly strong.
 
 ### ROC Curves
 ![ROC Curves](artifacts/ood_roc_curves.png)
 
-The ROC curve overlay clearly shows the AI Detection Pile curve (green) falling *below* the diagonal, confirming anti-correlated predictions. MAGE (pink) tracks loosely above the diagonal but far from the top-left corner. M4 and RAID curves are practically glued to the perfect-classification corner.
+Side-by-side ROC curve overlays for each model. In both panels, the AI Detection Pile curve falls *below* the diagonal (anti-correlated predictions), and MAGE tracks loosely above it. M4 and RAID curves are near-perfect for both models.
 
 ### Calibration Curves
 ![Calibration Curves](artifacts/ood_calibration_curves.png)
 
-Calibration varies dramatically by dataset. M4 and OpenGPTText follow the ideal diagonal reasonably well, while MAGE and AI Detection Pile show erratic, unreliable calibration. The AI Detection Pile calibration curve (green) trends downward at high predicted probabilities — meaning the model is most confident precisely when it is most wrong.
+Side-by-side calibration diagrams for each model. Calibration varies dramatically by dataset and is similar across both models. The AI Detection Pile calibration curve trends downward at high predicted probabilities — the model is most confident precisely when it is most wrong.
 
 ## Success Criteria
+
+### Exp-009
+
+| Criterion | Target | Actual | Status |
+|-----------|--------|--------|--------|
+| Avg OOD ROC-AUC | ≥ 0.90 | 0.8142 | ❌ Fail |
+| Floor ROC-AUC (no dataset below) | ≥ 0.70 | 0.4486 (AI Detection Pile) | ❌ Fail |
+| Avg Brier Score | ≤ 0.10 | 0.1813 | ❌ Fail |
+
+### Exp-010
 
 | Criterion | Target | Actual | Status |
 |-----------|--------|--------|--------|
@@ -82,27 +133,27 @@ Calibration varies dramatically by dataset. M4 and OpenGPTText follow the ideal 
 
 ## Key Takeaways
 
-1. **The model is not broadly generalizable.** Despite excellent in-distribution performance (0.9995 on PAN2025) and strong results on some OOD benchmarks, it catastrophically fails on others. The model has overfit to PAN-style AI text rather than learning general AI-detection features.
+1. **Obfuscation augmentation does not improve OOD generalization.** Exp-010 is marginally worse than Exp-009 on 4 of 5 OOD datasets. The augmentation did not teach generalizable AI-detection features.
 
-2. **Domain matters more than expected.** The model excels on datasets whose text distribution is closer to PAN2025's (news, Q&A, adversarial rewrites) but fails on datasets with different characteristics (multi-generator MAGE, long-form essay Pile).
+2. **Neither model is broadly generalizable.** Despite near-perfect in-distribution performance (>0.999), both catastrophically fail on AI Detection Pile. Domain and generator matter far more than training augmentation.
 
-3. **Anti-correlated predictions are a red flag.** The AI Detection Pile result (0.4119) suggests the model has learned heuristics that are counter-productive for certain text types — potentially length-based or formatting-based features that happen to correlate differently in the Pile.
+3. **Anti-correlated predictions are a shared failure mode.** Both models score below 0.50 on AI Detection Pile — they have learned heuristics counter-productive for long-form GPT-2/3 essays, likely length or formatting artifacts.
 
-4. **Two datasets (TuringBench, HC3 Multi-Domain) failed to load.** This reduces the evaluation scope from 7 to 5 datasets. These should be investigated and included in a follow-up.
+4. **Exp-009 is the stronger OOD model** (+0.017 avg ROC-AUC). Obfuscation augmentation yielded no measurable benefit for generalization.
 
-5. **For CLEF submission, these weaknesses may not be fatal** if PAN2026's test distribution is similar to PAN2025's. However, the results highlight risks if the competition introduces novel generators or text styles.
+5. **Two datasets (TuringBench, HC3 Multi-Domain) failed to load** in both runs and should be investigated in a follow-up.
+
+6. **For CLEF submission, these weaknesses may not be fatal** if PAN2026's test distribution resembles PAN2025's. However, the results highlight risks if the competition introduces novel generators or text styles.
 
 ## Artifacts
 
-All artifacts are stored on HuggingFace: [`hersheys-baklava/pan2026-011-ood-eval-results`](https://huggingface.co/datasets/hersheys-baklava/pan2026-011-ood-eval-results)
-
-| File | Description |
-|------|-------------|
-| `all_ood_results.json` | Combined metrics for all datasets |
-| `ood_roc_comparison.png` | ROC-AUC bar chart |
-| `ood_metrics_heatmap.png` | All metrics heatmap |
-| `ood_roc_curves.png` | Overlaid ROC curves |
-| `ood_calibration_curves.png` | Calibration reliability diagrams |
-| `*_results.json` | Per-dataset metrics |
-| `*_predictions.json` | Per-dataset predictions and labels |
-| `results_draft.md` | Auto-generated results draft |
+| File | Description | Location |
+|------|-------------|----------|
+| `all_ood_results.json` (010) | Combined metrics — Exp-010 model | [`pan2026-011-ood-eval-results`](https://huggingface.co/datasets/hersheys-baklava/pan2026-011-ood-eval-results) |
+| `all_ood_results.json` (009) | Combined metrics — Exp-009 model | [`pan2026-011-ood-eval-results-009`](https://huggingface.co/datasets/hersheys-baklava/pan2026-011-ood-eval-results-009) |
+| `ood_roc_comparison.png` | Grouped ROC-AUC bar chart (both models) | local `artifacts/` |
+| `ood_metrics_heatmap.png` | Side-by-side metrics heatmap (both models) | local `artifacts/` |
+| `ood_roc_curves.png` | Side-by-side ROC curve overlays (both models) | local `artifacts/` |
+| `ood_calibration_curves.png` | Side-by-side calibration curves (both models) | local `artifacts/` |
+| `*_results.json` | Per-dataset metrics | both HF repos |
+| `*_predictions.json` | Per-dataset probabilities and labels | both HF repos |
