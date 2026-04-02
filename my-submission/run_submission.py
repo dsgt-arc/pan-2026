@@ -24,7 +24,7 @@ from transformers import (
     AutoConfig,
     AutoTokenizer,
 )
-from peft import PeftModel
+
 
 # ── Constants ──────────────────────────────────────────────────────
 MODEL_NAME = "Qwen/Qwen2.5-1.5B"
@@ -83,6 +83,8 @@ def load_model(model_path: str, device: str = "cpu"):
               file=sys.stderr)
     except Exception:
         # Adapter-only path — need base model + PEFT merge
+        from peft import PeftModel
+
         config = AutoConfig.from_pretrained(MODEL_NAME)
         config.pad_token_id = config.eos_token_id
         config.num_labels = NUM_LABELS
@@ -101,8 +103,9 @@ def load_model(model_path: str, device: str = "cpu"):
     return model
 
 
-def get_tokenizer():
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+def get_tokenizer(model_path: str = "/model"):
+    """Load tokenizer from the local model directory (no network in TIRA)."""
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = "left"
@@ -158,7 +161,7 @@ def main():
     print(f"[submission] loading adapter from {args.adapter_path}",
           file=sys.stderr)
     model = load_model(args.adapter_path, device=device)
-    tokenizer = get_tokenizer()
+    tokenizer = get_tokenizer(args.adapter_path)
 
     # Read input
     records = []
