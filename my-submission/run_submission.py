@@ -4,8 +4,8 @@ PAN 2026 TIRA Submission Script — Experiment 010 (Obfuscation-Robust LoRA).
 Loads the Qwen2.5-1.5B + LoRA adapter, processes each test case in isolation,
 and writes predictions as JSONL with confidence scores.
 
-Usage (TIRA invocation):
-    python run_submission.py $inputDataset/dataset.jsonl $outputDir
+TIRA sets environment variables $inputDataset and $outputDir.
+The script auto-discovers the *.jsonl file inside $inputDataset.
 
 The adapter is expected at /model inside the Docker container (baked in at
 build time). For local testing, pass --adapter-path to override.
@@ -142,23 +142,50 @@ def predict_single(model, tokenizer, text: str, device: str = "cpu") -> float:
 
 # ── Main ──────────────────────────────────────────────────────────
 def main():
+    import os
+    import glob
+
     parser = argparse.ArgumentParser(
         description="PAN 2026 AI-generated text detector (exp 010)")
-    parser.add_argument("input_file", help="Path to input JSONL file")
-    parser.add_argument("output_dir", help="Directory to write predictions")
+    parser.add_argument("--input-dir", default=None,
+                        help="Path to input directory (default: $inputDataset)")
+    parser.add_argument("--output-dir", default=None,
+                        help="Path to output directory (default: $outputDir)")
     parser.add_argument("--adapter-path", default="/model",
-                        help="Path to LoRA adapter (default: /model)")
+                        help="Path to model weights (default: /model)")
     args = parser.parse_args()
 
-    input_path = Path(args.input_file)
-    output_dir = Path(args.output_dir)
+    # Resolve input/output from env vars (TIRA) or CLI args (local testing)
+    input_dir = args.input_dir or os.environ.get("inputDataset")
+    output_dir = args.output_dir or os.environ.get("outputDir")
+
+    if not input_dir:
+        print("[submission] ERROR: No input directory. Set $inputDataset or "
+              "pass --input-dir", file=sys.stderr)
+        sys.exit(1)
+    if not output_dir:
+        print("[submission] ERROR: No output directory. Set $outputDir or "
+              "pass --output-dir", file=sys.stderr)
+        sys.exit(1)
+
+    input_dir = Path(input_dir)
+    output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Auto-discover the *.jsonl file in the input directory
+    jsonl_files = sorted(input_dir.glob("*.jsonl"))
+    if len(jsonl_files) == 0:
+        print(f"[submission] ERROR: No .jsonl file found in {input_dir}",
+              file=sys.stderr)
+        sys.exit(1)
+    input_path = jsonl_files[0]
+    print(f"[submission] using input file: {input_path}", file=sys.stderr)
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"[submission] device={device}", file=sys.stderr)
 
     # Load model once
-    print(f"[submission] loading adapter from {args.adapter_path}",
+    print(f"[submission] loading model from {args.adapter_path}",
           file=sys.stderr)
     model = load_model(args.adapter_path, device=device)
     tokenizer = get_tokenizer(args.adapter_path)
@@ -190,3 +217,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
